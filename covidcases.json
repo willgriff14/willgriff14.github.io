@@ -50,7 +50,7 @@
     "color": {
       "field": "areaName",
       "type": "nominal",
-      "scale": {"scheme": ["red","yellow","green"]},
+      "scale": {"scheme": ["red","purple","green"]},
       "title": "AREA",
       "legend": {
         "orient": "top-left", 
