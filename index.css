@@ -7,9 +7,55 @@ body{
     margin: auto;
 }
 
-h1{
-    
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #111;
 }
+
+.title {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
+
 
 h3{
     color: #faf9f6;
@@ -19,128 +65,6 @@ h3{
 p{font-family: 'Poppins', sans-serif;
 color: white;
 }
-
-body {
-  margin:0;
-	background:#000;
-	text-align:center;
-}
-
-#svgwrapper {
-  display:inline-block;
-  width:400px;
-  height:200px;
-  stroke: white;
-  fill: none;
-  position: relative;
-}
-
-.logo-path {
-    display: block;
-    margin: 0 auto;
-    position: absolute;
-    top: calc(20% + 20px);
-}
-
-.logo-path {
-    stroke-dasharray: 2600;
-    stroke-dashoffset: 2600;
-}
-
-.underline {
-    stroke-width: 20;
-    animation: letter-animation 5s linear forwards;
-    animation-delay: 5.1s;
-}
-
-.i-2 { /* Mar(i)na */
-    stroke-width: 12;
-    animation: letter-animation 15s linear forwards;
-    animation-delay: 4.8s;
-}
-
-.aa-2 { /* Marin(a) */
-    stroke-width: 30;
-    animation: letter-animation 10s linear forwards;
-    animation-delay: 4.25s;
-}
-
-.aa-1 { /* Marin(a) */
-    stroke-width: 10;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 4s;
-}
-
-.n-2 { /* Mari(n)a */
-    stroke-width: 15;
-    animation: letter-animation 10s linear forwards;
-    animation-delay: 3.5s;
-}
-
-.n-1 { /* Mari(n)a */
-    stroke-width: 10;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 3.3s;
-}
-
-.i-1 { /* Mar(i)na */
-    stroke-width: 9;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 3s;
-}
-
-.r-2 { /* Ma(r)ina */
-    stroke-width: 12;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 2.7s;
-}
-
-.r-1 { /* Ma(r)ina */
-    stroke-width: 9;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 2.45s;
-}
-
-.a-2 { /* M(a)rina */
-    stroke-width: 8;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 2.25s;
-}
-
-.a-1 { /* M(a)rina */
-    stroke-width: 10;
-    animation: letter-animation 8s linear forwards;
-    animation-delay: 2s;
-}
-
-.M-3 { /* (M)arina */
-    stroke-width: 20;
-    animation: letter-animation 5s linear forwards;
-    animation-delay: 1.53s;
-}
-
-.M-2 { /* (M)arina */
-    stroke-width: 20;
-    animation: letter-animation 5s linear forwards;
-    animation-delay: 1.05s;
-}
-
-.M-1 { /* (M)arina */
-    stroke-width: 18;
-    animation: letter-animation 5s linear forwards;
-}
-
-@keyframes letter-animation {
-    0% {
-        stroke-dashoffset: 2600;
-    }
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
-
-
-
 
 .chart{
     width: 400px;
