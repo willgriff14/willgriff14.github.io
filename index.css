@@ -35,6 +35,26 @@ h1 {
 	line-height: .75;
 	margin: 10px 0;
 }
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: rgba(17, 34, 34, 0);
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	align-items: center;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
+
 
 
 h3{
