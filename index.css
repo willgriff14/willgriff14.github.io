@@ -46,6 +46,7 @@ h1 {
 	transition: .35s ease-in-out;
 	position: absolute;
 	align-items: center;
+	bottom: 15px;
 	font-family: "Montserrat";
 }
 
