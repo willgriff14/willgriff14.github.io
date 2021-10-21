@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "New Covid-19 Cases By Area",
-    "subtitle":"Surrey Heath, Powys and Westminster New Daily Covid-19 Cases",
+    "text": "VIX Index",
+    "subtitle":"VIX Index",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
@@ -40,11 +40,7 @@
     "color": {
       "field": "areaName",
       "type": "nominal",
-      "scale": {"scheme": "set1"},
-      "title": "AREA",
-      "legend": {
-        "orient": "top-left", 
-        "fillColor": "#FcFdFd"}
+      "scale": {"scheme": "set1"}
     }
 }
 }
