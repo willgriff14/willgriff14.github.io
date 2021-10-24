@@ -1,5 +1,7 @@
 /*Here is some example CSS by Charlie Meyrick. */
 
+// based on https://codepen.io/ellgine/pen/EjeXOZ
+
 $colors: (
     background: #1d1f20,
     text: #eee
@@ -143,7 +145,6 @@ p {
         }
     }
 }
-  
 
 .title {
 	font-family: "Montserrat";
