@@ -202,6 +202,7 @@ color: white;
 
 .chart{
     width: 400px;
+	position: bottom;
     border-width: 10px;
     background-color: white;
     border-style: solid;
