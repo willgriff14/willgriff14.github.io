@@ -1,17 +1,5 @@
 /*Here is some example CSS by Charlie Meyrick. */
 
-body{
-
-    background-color: #272829 ;
-    max-width: 450px;
-    margin: auto;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-body {
-	background-color: #111;
-}
-
 body {
 	background: black;
 	font-family: "Oswald", sans-serif;
