@@ -6,7 +6,7 @@
     "note3": "As a consequence data needs to be filtered before charting. Example of how to get what we want from JSON data using dot notation.",
 
     "config": {
-      "background":"#122b39",
+      "background":"#122b3900",
       "view": {
         "stroke": "transparent"
       }
@@ -15,11 +15,11 @@
     "title": {
     "text": "Major cryptocurrencies: 1 day price change",
     "anchor": "start",
-    "color": "#179fdb",
+    "color": "white",
     "subtitle":"1d change. Source: Nomics API",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
-    "subtitleColor":"#179fdb"
+    "subtitleColor":"white"
     
   },
 
@@ -36,7 +36,7 @@
 
     "mark": {
       "type": "bar",
-      "color":"#e6224b"},
+      "color":"#05f7ff"},
   
     "width":300,
     "height":300,
@@ -50,7 +50,7 @@
         "sort":"-y",
         "axis":{
           "domainColor":"dimgrey",
-          "labelColor":"#00a767",
+          "labelColor":"white",
           "tickColor":"pink",
           "gridColor":"hotpink",
           "labelAngle": 35
@@ -63,7 +63,7 @@
         "title": null,
           "axis":{
             "domainColor":"dimgrey",
-            "labelColor":"#f4c245",
+            "labelColor":"white",
             "tickColor":"pink",
             "gridColor":"dimgrey",
             "format":"%"

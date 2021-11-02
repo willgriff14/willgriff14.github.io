@@ -5,14 +5,18 @@
     "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/chartENV15b.csv"
 
   },
+  
   "title": {
     "text": "GDP loss by temperature increase scenario",
     "subtitle":"By most affected country. Source: Swiss Re",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
+    "subtitleColor": "white",
     "anchor": "start",
-    "color": "black"
+    "color": "white"
   },
+
+
   "width": {"step": 10},
   "height": 300,
   "mark": "bar",
@@ -23,7 +27,7 @@
       "type": "quantitative",
       "title": null,
       "scale": {"domain": [-13, 0.5]},
-      "axis": {"grid": false}
+      "axis": {"grid": false, "labelColor": "white"}
     },
 
     "x": {
@@ -36,7 +40,7 @@
     "color": {
       "field": "Country",
       "scale": {"scheme": "yellowgreenblue"},
-      "legend": {"orient": "right"}
+      "legend": {"orient": "right", "titleColor": "white", "labelColor": "white"}
     },
     "tooltip": [
       {"field": "Scenario", "type": "nominal"},
@@ -44,5 +48,11 @@
       {"field": "Country", "type": "nominal"}
     ]
   },
-  "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}}
+  "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}, "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }}
+
+  
+
 }

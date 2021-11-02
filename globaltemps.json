@@ -6,8 +6,9 @@
       "subtitle":"VIX Index",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
+      "subtitleColor": "white",
       "anchor": "start",
-      "color": "black"
+      "color": "white"
     },
     
      "data": {
@@ -15,11 +16,18 @@
       "format": {"type": "csv"}
     },
     
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }
+    },
+    
     
     "height": 300,
     "width": 310,
      
-    "mark": {"type": "line", "point": false},
+    "mark": {"type": "line", "point": false, "color": "#05f7ff"},
    
     "encoding": {
   
@@ -27,25 +35,17 @@
         "field": "Date",
         "type": "temporal",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": false, "labelColor": "white"}
       },
   
       "y": {
         "field": "Mean",
         "type": "quantitative",
         "title": null,
-        "axis": {"grid": false}
-      },
-  
-      "color": {
-        "field": "areaName",
-        "type": "nominal",
-        "scale": {"scheme": "set1"},
-        "title": "AREA",
-        "legend": {
-          "orient": "top-left", 
-          "fillColor": "#FcFdFd"}
+        "axis": {"grid": false, "labelColor": "white"}
       }
+  
+
   }
   }
   

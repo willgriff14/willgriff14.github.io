@@ -6,9 +6,18 @@
       "subtitle":"Surrey Heath, Powys and Westminster New Daily Covid-19 Cases",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
+      "subtitleColor": "white",
       "anchor": "start",
-      "color": "black"
+      "color": "white"
     },
+
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }
+    },
+    
     
      "data": {
       "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/covid%20data%202.csv",
@@ -37,24 +46,26 @@
         "field": "date",
         "type": "temporal",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": false, "labelColor": "white"}
       },
   
       "y": {
         "field": "newCasesByPublishDateRollingRate",
         "type": "quantitative",
         "title": null,
-        "axis": {"grid": false}
+        "axis": {"grid": false, "labelColor": "white"}
       },
   
       "color": {
         "field": "areaName",
         "type": "nominal",
-        "scale": {"scheme": "set1"},
+        "scale": {"scheme": "pastel1"},
         "title": "AREA",
         "legend": {
           "orient": "top-left", 
-          "fillColor": "#FcFdFd"}
+          "fillColor": "#FcFdFd00",
+          "labelColor": "white",
+          "titleColor": "white"}
       }
   }
   }

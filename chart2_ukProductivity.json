@@ -3,13 +3,22 @@
 
   "description": "Productivity UK",
 
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
+
    "title": {
     "text": "UK productivity, 1971-2021",
     "subtitle":"Labour productivity. Output per hour worked, 2018==100. Source: ONS",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
+    "subtitleColor": "white",
     "anchor": "start",
-    "color": "black"
+    "color": "white"
   },
   
   "data": {
@@ -20,7 +29,7 @@
     "type": "line",
     "point": false,
     "interpolate": "monotone",
-    "color": "blueviolet"
+    "color": "#05f7ff"
   },
   "encoding": {
     "x": {
@@ -30,14 +39,15 @@
         "title": null,
         "grid": false,
         "labelSeparation": 20,
-        "ticks": false
+        "ticks": false,
+        "labelColor": "white"
       }
     },
     "y": {
       "field": "Value",
       "type": "quantitative",
       "title": "",
-      "axis": {"grid": false}
+      "axis": {"grid": false, "labelColor": "white"}
     }
   }
 }

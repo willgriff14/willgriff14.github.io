@@ -20,36 +20,30 @@
 </head>
 
 
-
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
-<body>
+<div class="container">
+  <nav>
+    <h1 data-text="Will Griffin">Will Griffin</h1>
+    <div class = "navbar-links">
+      <ul>
+        <li><a href="index.html">DS Portfolio</a></li>
+        <li><a href="project.html">DS Project</a></li>
+        <li><a href="https://github.com/willgriff14">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <html>
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width" />
-      <title>Glitch</title>
-      <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-      <div class="container">
-      <div class="glitch" data-text="ELISABÉTH">ELISABÉTH</div>
-      <div class="glow">ELISABÉTH</div>
-      <p class="subtitle">IMPRACTICAL DEVELOPER</p>
-      </div>
-      <div class="scanlines"></div>
-    </body>
-    </html>
-    
-    
+  <main>
+    <h2>Data Science Portfolio</h2>
+  </main>
 
-  <p>stuff and ting</p>
+  <div id="content1">
+      <p>Covid cases text</p>
 
 <!--Chart 1 -->
   <div class="chart" id="chart1">
@@ -59,65 +53,110 @@
       </script>
   </div>
 
-  <p>stuff and ting</p>
 
-<!--Chart 2 -->
-<div class="chart" id="chart2">
-    <script>
-      var myChart2 = "chart2_ukProductivity.json";
-      vegaEmbed('#chart2', myChart2);
-    </script>
-</div>
+  </div>
+  <div id="content2">
+    <p>Labour productivity text</p>
 
-<p>stuff and ting</p>
+    <!--Chart 2 -->
+    <div class="chart" id="chart2">
+        <script>
+          var myChart2 = "chart2_ukProductivity.json";
+          vegaEmbed('#chart2', myChart2);
+        </script>
+    </div>
 
-<!--Chart 3 -->
-<div class="chart" id="chart3">
-    <script>
-      var myChart3 = "chartcrypto11.json";
-      vegaEmbed('#chart3', myChart3);
-    </script>
-</div>
-  
-<p>stuff and ting</p>
+  </div>
+  <div id="content3">
+    <p>crypto text</p>
 
-<!--Chart 4 -->
+    <!--Chart 3 -->
+    <div class="chart" id="chart3">
+        <script>
+          var myChart3 = "chartcrypto11.json";
+          vegaEmbed('#chart3', myChart3);
+        </script>
+    </div>
+      
+
+  </div>
+  <div id="content4">
+    <p>covid cases text</p>
+    <!--Chart 4 -->
 <div class="chart" id="chart4">
-    <script>
-      var myChart4 = "covidcases.json";
-      vegaEmbed('#chart4', myChart4);
-    </script>
-</div>
-
-<p>stuff and ting</p>
-
-<!--Chart 5 -->
-<div class="chart" id="chart5">
-    <script>
-      var myChart5 = "raw data.json";
-      vegaEmbed('#chart5', myChart5);
-    </script>
-</div>
-
-<p>stuff and ting</p>
-
-<!--Chart 6 -->
-<div class="chart" id="chart6">
   <script>
-    var myChart6 = "vixchart.json";
-    vegaEmbed('#chart6', myChart6);
+    var myChart4 = "covidcases.json";
+    vegaEmbed('#chart4', myChart4);
   </script>
 </div>
 
-<p>stuff and ting</p>
 
-<!--Chart 7 -->
-<div class="chart" id="chart7">
-  <script>
-    var myChart7 = "globaltemps.json";
-    vegaEmbed('#chart7', myChart7);
-  </script>
+  </div>
+  <div id="content5">
+    <p>more covid cases text</p>
+    <!--Chart 5 -->
+    <div class="chart" id="chart5">
+        <script>
+          var myChart5 = "raw data.json";
+          vegaEmbed('#chart5', myChart5);
+        </script>
+    </div>
+    </div>
+  <div id="content6">
+    <p>volatility index text</p>
+    
+    <!--Chart 6 -->
+    <div class="chart" id="chart6">
+      <script>
+        var myChart6 = "vixchart.json";
+        vegaEmbed('#chart6', myChart6);
+      </script>
+    </div>
+  </div>
+
+  <div id="content7">
+    <p>monthly global temps text</p>
+    
+    <!--Chart 7 -->
+    <div class="chart" id="chart7">
+      <script>
+        var myChart7 = "globaltemps.json";
+        vegaEmbed('#chart7', myChart7);
+      </script>
+    </div>
+  </div>
+
+  <div id="content8">
+
+      <!--Chart 8 -->
+      <div class="chart" id="chart8">
+        <script>
+          var myChart8 = "gdp loss by temp increase.json";
+          vegaEmbed('#chart8', myChart8);
+        </script>
+      </div>
+    </div>
+
+
+  <div id="content9">      
+    
+    <!--Chart 8 -->
+    <div class="chart" id="chart9">
+      <script>
+        var myChart9 = "wildfires.json";
+        vegaEmbed('#chart9', myChart9);
+      </script>
+    </div>
+  </div>
+
+
+  <footer>Footer</footer>
 </div>
+
+<body>
+    
+    
+
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->

@@ -1,6 +1,14 @@
   {"$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   
   "description": "Coronavirus cases",
+
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
   
   "data": {
     "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=newCasesByPublishDate&format=csv",
@@ -12,7 +20,7 @@
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "anchor": "start",
-    "color": "black"
+    "color": "white"
   },
 
 
@@ -42,6 +50,7 @@
           "Yorkshire and The Humber"
         ],
         "name": "Region"
+        
       }
     }
   },
@@ -60,11 +69,12 @@
   ],
 
   "encoding": {
-    "x": {"field": "date", "type": "temporal", "title": null},
+    "x": {"field": "date", "type": "temporal", "title": null, "axis":{"labelColor": "white"}},
     "y": {
       "field": "newCasesByPublishDate",
       "type": "quantitative",
-      "title": null
+      "title": null,
+      "axis":{"labelColor":"white"}
     },
     
       
@@ -72,7 +82,7 @@
       "field": "areaName",
       "type": "nominal",
       "legend": null,
-      "scale": {"scheme": "inferno"}
+      "scale": {"scheme": "purpleblue"}
     }
   }
 }
