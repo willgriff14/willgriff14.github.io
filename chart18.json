@@ -1,0 +1,55 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
+    "title": {
+      "text": "Scraped Wiki table",
+      "subtitle":"Stock market Milestones 1990s",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitleColor": "white",
+      "anchor": "start",
+      "color": "white"
+    },
+    
+     "data": {
+      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/scraped.csv",
+      "format": {"type": "csv"}
+    },
+    
+    
+    "height": 300,
+    "width": 310,
+     
+    "mark": {"type": "line", "point": false, "color":"#05f7ff"},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "Date first achieved",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "y": {
+        "field": "Milestone",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "color": {
+        "type": "nominal",
+        "scale": {"scheme": "set1"}
+      }
+  }
+  }

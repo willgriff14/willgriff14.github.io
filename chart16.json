@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+"config":{
+  "background": "#3a3a3a00",
+  "view": {
+    "stroke": "transparent"
+}
+},
+
+  "title": {
+    "text": "BTC API",
+    "subtitle":"CoinAPI",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "subtitleColor": "white",
+    "anchor": "start",
+    "color": "white"
+  },
+  
+   "data": {
+    "url": "https://rest.coinapi.io/v1/exchangerate/BTC/USD/history?period_id=4hrs&time_start=2017-01-01T00:00:00&time_end=2019-01-01T00:00:00&apikey=DEF9D194-3FDB-4FC0-8C4A-62318E512760"
+  },
+  
+  
+  "height": 300,
+  "width": 310,
+   
+  "mark": {"type": "line", "point": false, "color":"#05f7ff"},
+ 
+  "encoding": {
+
+    "x": {
+      "field": "time_period_start",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false,
+      "labelColor": "white"}
+    },
+
+    "y": {
+      "field": "rate_high",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false,
+      "labelColor": "white"}
+    },
+
+    "color": {
+      "type": "nominal",
+      "scale": {"scheme": "set1"}
+    }
+}
+}

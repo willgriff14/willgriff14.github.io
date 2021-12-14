@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
+    "title": {
+      "text": "Total Nonfarm",
+      "subtitle":"Fred",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitleColor": "white",
+      "anchor": "start",
+      "color": "white"
+    },
+    
+     "data": {
+      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/data_FRED-PAYEMS.json",
+      "format": {"property": "observations"}
+    },
+    
+    
+    "height": 300,
+    "width": 310,
+     
+    "mark": {"type": "line", "point": false, "color":"#05f7ff"},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "color": {
+        "type": "nominal",
+        "scale": {"scheme": "set1"}
+      }
+  }
+  }
+  

@@ -1,0 +1,55 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
+    "title": {
+      "text": "IBM API",
+      "subtitle":"From AlphaVantage",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitleColor": "white",
+      "anchor": "start",
+      "color": "white"
+    },
+    
+     "data": {
+      "url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=IBM&outputsize=full&apikey=CCNS4VSLKFSJQNVG&datatype=csv",
+      "format": {"type": "csv"}
+    },
+    
+    
+    "height": 300,
+    "width": 310,
+     
+    "mark": {"type": "line", "point": false, "color":"#05f7ff"},
+   
+    "encoding": {
+  
+      "x": {
+        "field": "timestamp",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "y": {
+        "field": "close",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false,
+        "labelColor": "white"}
+      },
+  
+      "color": {
+        "type": "nominal",
+        "scale": {"scheme": "set1"}
+      }
+  }
+  }
