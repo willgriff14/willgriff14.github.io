@@ -3,7 +3,7 @@
     
     "title": {
       "text": "Global Monthly Mean Temperature",
-      "subtitle":"VIX Index",
+      "subtitle":"Global monthly mean temp change",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

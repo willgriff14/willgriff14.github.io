@@ -15,6 +15,11 @@
 	"content1 content2 content3"
 	"content4 content5 content6"
 	"content7 content8 content9"
+	"content10 content11 content12"
+	"content13 content14 content15"
+	"content16 content17 content18"
+	"content19 content20 content21"
+	"content22 content22 content23"
 	"footer footer footer";
 	grid-gap: 1rem;
 	font-family: "Inter", sans-serif;
@@ -117,6 +122,118 @@ main{
 	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+#content10{
+	background: #1f1f1f;
+	grid-area: content10;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content11{
+	background: #1f1f1f;
+	grid-area: content11;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content12{
+	background: #1f1f1f;
+	grid-area: content12;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content13{
+	background: #1f1f1f;
+	grid-area: content13;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content14{
+	background: #1f1f1f;
+	grid-area: content14;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content15{
+	background: #1f1f1f;
+	grid-area: content15;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content16{
+	background: #1f1f1f;
+	grid-area: content16;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content17{
+	background: #1f1f1f;
+	grid-area: content17;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content18{
+	background: #1f1f1f;
+	grid-area: content18;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content19{
+	background: #1f1f1f;
+	grid-area: content19;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content20{
+	background: #1f1f1f;
+	grid-area: content20;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content21{
+	background: #1f1f1f;
+	grid-area: content21;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content22{
+	background: #1f1f1f;
+	grid-area: content22;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content23{
+	background: #1f1f1f;
+	grid-area: content23;
+	border-radius: var(--main-radius);
+	padding-top: var(--main-padding);
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 footer{
 	background: #faf9f6;
 	grid-area: footer;
@@ -135,13 +252,20 @@ footer{
 		"content3 content4"
 		"content5 content6"
 		"content7 content8"
-		"content9 content9"
+		"content9 content10"
+		"content11 content12"
+		"content13 content14"
+		"content15 content16"
+		"content17 content18"
+		"content19 content20"
+		"content21 content22"
+		"content23 content23"
 		"footer footer";
 
 	}
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:800px){
 	.container{
 		grid-template-columns: 1fr;
 		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
@@ -157,6 +281,20 @@ footer{
 		"content7"
 		"content8"
 		"content9"
+		"content10"
+		"content11"
+		"content12"
+		"content13"
+		"content14"
+		"content15"
+		"content16"
+		"content17"
+		"content18"
+		"content19"
+		"content20"
+		"content21"
+		"content22"
+		"content23"
 		"footer";
 
 	}
@@ -198,7 +336,7 @@ h1{
 }
 
 h2{
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	font-family: 'Poppins', sans-serif ;
 	text-align: centre;
 	text-indent: 0%;

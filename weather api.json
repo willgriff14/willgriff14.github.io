@@ -9,8 +9,8 @@
 },
 
   "title": {
-    "text": "Median usual weekly earnings",
-    "subtitle":"Wages and salary workers",
+    "text": "VIX Index",
+    "subtitle":"VIX Index",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor": "white",
@@ -19,8 +19,8 @@
   },
   
    "data": {
-    "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/data_FRED-LES1252881600Q.json",
-    "format": {"property": "observations"}
+    "url": "https://history.openweathermap.org/data/3.0/history/timemachine?lat=51.51&lon=-0.13&dt=606348800&appid={e032d6fb2b6501a243e46752f7e028ec}",
+    "format": {"type": "csv"}
   },
   
   
@@ -32,7 +32,7 @@
   "encoding": {
 
     "x": {
-      "field": "date",
+      "field": "Date",
       "type": "temporal",
       "title": null,
       "axis": {"grid": false,
@@ -40,9 +40,8 @@
     },
 
     "y": {
-      "field": "value",
+      "field": "Close",
       "type": "quantitative",
-      "scale": {"domain": [300,400]},
       "title": null,
       "axis": {"grid": false,
       "labelColor": "white"}

@@ -1,6 +1,7 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    
   "config":{
     "background": "#3a3a3a00",
     "view": {
@@ -9,7 +10,7 @@
   },
   
     "title": {
-      "text": "Proving thing wrong",
+      "text": "ONS and Statista Data",
       "subtitle":"20% of UK jobs are not green",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -27,29 +28,40 @@
     "height": 300,
     "width": 310,
      
-    "mark": {"type": "line", "point": false, "color":"#05f7ff"},
-   
+  "encoding": {
+    "x": {"timeUnit": "yearmonthdate", "field": "Date", "axis": {"labelColor": "white", "titleColor": "white"}},
+    "tooltip": [
+      {"timeUnit": "yearmonthdate", "field": "Date"},
+      {"field": "Total Employment", "type": "quantitative"},
+      {"field": "Estimate", "type": "quantitative"}
+    ]
+  },
+  "layer": [{
+    "mark": {"type": "area", "color": "pink"},
     "encoding": {
-  
-      "x": {
-        "field": "Date",
-        "type": "temporal",
-        "title": null,
-        "axis": {"grid": false,
-        "labelColor": "white"}
-      },
-  
-      "y": {
-        "field": "Estimate",
-        "type": "quantitative",
-        "title": null,
-        "axis": {"grid": false,
-        "labelColor": "white"}
-      },
-  
+      "y": {"field": "Total Employment", "type": "quantitative"}
+    }
+  }, {
+    "mark": {"type": "area", "color": "#05f7ff"},
+    "encoding": {
+      "y": {"field": "Estimate", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white"}}
+    }
+  }, {
+    "mark": "rule",
+    "params": [{
+      "name": "hover",
+      "select": {"type": "point", "on": "mouseover"}
+    }],
+    "encoding": {
       "color": {
-        "type": "nominal",
-        "scale": {"scheme": "set1"}
+        "condition": {
+          "param": "hover",
+          "empty": false,
+          "value": "white"
+        },
+        "value": "transparent"
       }
-  }
-  }
+    }
+  }],
+  "config": {"axisY": {"minExtent": 30}}
+}

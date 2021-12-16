@@ -1,0 +1,100 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }
+    },
+  
+  
+      "title": {
+        "text": "Bonds",
+        "subtitle":"Interactive",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/HW9_again.csv"
+    },
+  
+    "width": 310,
+    "height": 300,
+  
+    "layer": [
+      {
+        "encoding": {
+          "x": {"field": "Date", "type": "temporal"},
+          "y": {"field": "Close", "type": "quantitative"},
+          "color": {"field": "Name", "type": "nominal"}
+        },
+        "layer": [
+          {"mark": "line"},
+          {
+            "params": [{
+              "name": "label",
+              "select": {
+                "type": "point",
+                "encodings": ["x"],
+                "nearest": true,
+                "on": "mouseover"
+              }
+            }],
+            "mark": "point",
+            "encoding": {
+              "opacity": {
+                "condition": {
+                  "param": "label",
+                  "empty": false,
+                  "value": 1
+                },
+                "value": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "transform": [{"filter": {"param": "label", "empty": false}}],
+        "layer": [
+          {
+            "mark": {"type": "rule", "color": "gray"},
+            "encoding": {
+              "x": {"type": "temporal", "field": "date", "aggregate": "min"}
+            }
+          },
+          {
+            "encoding": {
+              "text": {"type": "quantitative", "field": "Close"},
+              "x": {"type": "temporal", "field": "Date"},
+              "y": {"type": "quantitative", "field": "Close"}
+            },
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "stroke": "white",
+                  "strokeWidth": 2,
+                  "align": "left",
+                  "dx": 5,
+                  "dy": -5
+                }
+              },
+              {
+                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+                "encoding": {
+                  "color": {"type": "nominal", "field": "Name"}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

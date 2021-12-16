@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+  
+    "title": {
+      "text": "Regression",
+      "subtitle":"S&P and STOXX",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitleColor": "white",
+      "anchor": "start",
+      "color": "white"
+    },
+    
+
+  "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/my_stocks_HW9.csv"},
+  
+      
+    "height": 300,
+    "width": 310,
+     
+  
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true, "color": "#05f7ff"},
+      "encoding": {
+        "x": {"field": "^STOXX50E", "type": "quantitative","scale":{"domain":[2000,5000]}},
+        "y": {"field": "^GSPC", "type": "quantitative","scale":{"domain":[1000,5000]}}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "pink"},
+      "transform": [
+        {"regression": "^GSPC", "on": "^STOXX50E"}
+      ],
+      "encoding": {
+        "x": {"field": "^STOXX50E", "type": "quantitative",
+        "axis": {"labelColor": "white", "titleColor": "white", "title": "EUROSTOXX 50"}},
+        "y": {"field": "^GSPC", "type": "quantitative",
+        "axis": {"labelColor": "white", "titleColor": "white", "title": "S&P500"}}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "^GSPC",
+          "on": "^STOXX50E",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "pink",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}

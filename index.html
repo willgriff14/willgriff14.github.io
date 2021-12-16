@@ -42,66 +42,68 @@
     <h2>Data Science Portfolio</h2>
   </main>
 
-  <div id="content1">
-      <h3>Homework 1 </h3>
-      <p>Covid cases text</p>
 
 <!--Chart 1 -->
+  <div id="content1">
+      <h3>Homework 1 </h3>
+      <p>This chart shows UK covid cases by region. I embedded this 
+        chart from the repository of charts from rapidcharts.</p>
   <div class="chart" id="chart1">
       <script>
         var myChart1 = "chart1_covidUKRegions.json";
         vegaEmbed('#chart1', myChart1);
       </script>
   </div>
-
-
   </div>
   
+
+<!--Chart 2 --> 
   <div id="content2">
     <h3>Homework 1 </h3>
-    <p>Labour productivity text</p>
-
-    <!--Chart 2 -->
+    <p>The second chart I embedded to my site shows UK
+      labour productivity from 1971 to 2021.</p>
     <div class="chart" id="chart2">
         <script>
           var myChart2 = "chart2_ukProductivity.json";
           vegaEmbed('#chart2', myChart2);
         </script>
     </div>
-
   </div>
 
+
+  <!--Chart 3 -->
   <div id="content3">
     <h3>Homework 1 </h3>
-    <p>crypto text</p>
-
-    <!--Chart 3 -->
+    <p>The final chart I embedded for homework 1 shows
+      the 1 day price change of five major cryptocurrencies.</p>
     <div class="chart" id="chart3">
         <script>
           var myChart3 = "chartcrypto11.json";
           vegaEmbed('#chart3', myChart3);
         </script>
     </div>
-      
-
   </div>
+
+
+<!--Chart 4 -->
   <div id="content4">
     <h3>Homework 2 </h3>
-    <p>covid cases text</p>
-    <!--Chart 4 -->
-<div class="chart" id="chart4">
-  <script>
+    <p>I created a chart from an API of the same Covid data 
+      that is in my GitHub respository.</p>
+    <div class="chart" id="chart4">
+    <script>
     var myChart4 = "covidcases.json";
     vegaEmbed('#chart4', myChart4);
   </script>
+  </div>
 </div>
 
 
-  </div>
+<!--Chart 5 -->
   <div id="content5">
     <h3>Homework 2 </h3>
-    <p>more covid cases text</p>
-    <!--Chart 5 -->
+    <p>This is the second chart I embebbed to my site which
+      uses an API for Covid data.</p>
     <div class="chart" id="chart5">
         <script>
           var myChart5 = "raw data.json";
@@ -110,12 +112,12 @@
     </div>
     </div>
 
-    
+  <!--Chart 6 -->   
   <div id="content6">
-    <h3>Homework 3: Value manually added for 2021-10-19 </h3>
-    <p>volatility index text</p>
-    
-    <!--Chart 6 -->
+    <h3>Homework 3 </h3>
+    <p>This chart shows VIX historical data. I manually added
+      the last entry of 7.77777 for 2021-10-19 (this is a
+      fictional value).</p>
     <div class="chart" id="chart6">
       <script>
         var myChart6 = "vixchart.json";
@@ -138,6 +140,7 @@
 
   <div id="content8">
 
+    <p>crypto text</p>
       <!--Chart 8 -->
       <div class="chart" id="chart8">
         <script>
@@ -149,7 +152,8 @@
 
 
   <div id="content9">      
-    
+  
+    <p>crypto text</p>
     <!--Chart 9 -->
     <div class="chart" id="chart9">
       <script>
@@ -159,9 +163,12 @@
     </div>
   </div>
 
+    <!--Chart 10 -->
   <div id="content10">      
     <h3>Homework 5 </h3>
-    <!--Chart 10 -->
+    <p>I used a python loop to batch download data from an API.
+      I produced five charts with this. This is the first chart 
+      and it shows the US CPI index.</p>
     <div class="chart" id="chart10">
       <script>
         var myChart10 = "chart10.json";
@@ -170,9 +177,11 @@
     </div>
   </div>
 
+    <!--Chart 11 -->
   <div id="content11">      
     <h3>Homework 5 </h3>
-    <!--Chart 11 -->
+    <p>This is the second chart I downloaded with the Python loop
+      and it shows market yield on US 10 year treasuries.</p>
     <div class="chart" id="chart11">
       <script>
         var myChart11 = "chart11.json";
@@ -181,9 +190,13 @@
     </div>
   </div>
 
+
+    <!--Chart 12 -->
   <div id="content12">      
     <h3>Homework 5 </h3>
-    <!--Chart 12 -->
+    <p>This is the third chart I produced as part of homework 5
+      (using Python loop). This is a chart  of US industrial
+      production.</p>
     <div class="chart" id="chart12">
       <script>
         var myChart12 = "chart12.json";
@@ -192,9 +205,13 @@
     </div>
   </div>
 
+
+  <!--Chart 13 -->
   <div id="content13">      
     <h3>Homework 5 </h3>
-    <!--Chart 13 -->
+    <p>This is the fourth chart I produced using the Python loop.
+      It shows median weekly earnings within the US beginning from 
+      1980.</p>
     <div class="chart" id="chart13">
       <script>
         var myChart13 = "chart13.json";
@@ -205,6 +222,8 @@
 
   <div id="content14">      
     <h3>Homework 5 </h3>
+    <p>This is the final chart I created as part of homework 5.
+      This chart shows US Nonfarm payroll from 1940 to 2021.</p>
     <!--Chart 14 -->
     <div class="chart" id="chart14">
       <script>
@@ -214,9 +233,12 @@
     </div>
   </div>
 
+
+  <!--Chart 15 -->
   <div id="content15">      
     <h3>Homework 3 </h3>
-    <!--Chart 15 -->
+    <p>I manually entered data of the VIX index within Vega Lite
+      by writing JSON by hand to produce this chart.</p>
     <div class="chart" id="chart15">
       <script>
         var myChart15 = "vixmanualentry.json";
@@ -225,9 +247,11 @@
     </div>
   </div>
 
+    <!--Chart 16 -->
   <div id="content16">      
     <h3>Homework 4 </h3>  
-    <!--Chart 16 -->
+    <p>I signed up and gained access to CoinAPI to produce this
+      chart. It shows the price of bitcoin from 2017 to..</p>
     <div class="chart" id="chart16">
       <script>
         var myChart16 = "chart16.json";
@@ -236,9 +260,14 @@
     </div>
   </div>
 
+  <!--Chart 17 -->
   <div id="content17">      
     <h3>Homework 8 </h3>  
-    <!--Chart 17 -->
+    <p>During the 'Next Crisis' talk at the Economics festival
+      one of the speakers claimed that 20% of current jobs
+      within the UK are considred to be green. This chart shows 
+      total UK employment within Low Carbon and Renewable Energy Economy 
+      (LCREE) estimates from the ONS.</p>
     <div class="chart" id="chart17">
       <script>
         var myChart17 = "chart17.json";
@@ -247,9 +276,11 @@
     </div>
   </div>
 
+  <!--Chart 18 -->
   <div id="content18">      
     <h3>Homework 7 </h3>  
-    <!--Chart 18 -->
+    <p>I built a scraper using PANDAS within Python to scrape data from
+      Wikipedia. This shows stock market Milestones througout the 1990s.</p>
     <div class="chart" id="chart18">
       <script>
         var myChart18 = "chart18.json";
@@ -258,9 +289,11 @@
     </div>
   </div>
 
+  <!--Chart 19 -->
   <div id="content19">      
     <h3>Homework 4 </h3>  
-    <!--Chart 19 -->
+    <p>I registered to Alpha Vantage to gain access to an API to produce
+      this chart of IBM stock price history.</p>
     <div class="chart" id="chart19">
       <script>
         var myChart19 = "chart19.json";
@@ -269,24 +302,52 @@
     </div>
   </div>
 
+<!--Chart 20 -->
   <div id="content20">      
-    
-    <!--Chart 20 -->
+    <h3>Homework 9 </h3>
+    <p>This is a chart of S&P500 index against the EUROSTOXX 50
+      index. I produced a linear regression and correlation
+      coefficient within Vega Lite.</p>
     <div class="chart" id="chart20">
       <script>
-        var myChart20 = "";
+        var myChart20 = "chart20.json";
         vegaEmbed('#chart20', myChart20);
       </script>
     </div>
   </div>
 
   <div id="content21">      
-    
+    <h3>Homework 10 </h3>  
+    <p>crypto text</p>
     <!--Chart 21 -->
     <div class="chart" id="chart21">
       <script>
-        var myChart21 = "";
+        var myChart21 = "chart21.json";
         vegaEmbed('#chart21', myChart21);
+      </script>
+    </div>
+  </div>
+
+  <div id="content22">      
+    
+    <p>crypto text</p>
+    <!--Chart 22 -->
+    <div class="chart" id="chart22">
+      <script>
+        var myChart22 = "chart22.json";
+        vegaEmbed('#chart22', myChart22);
+      </script>
+    </div>
+  </div>
+
+  <div id="content23">      
+    
+    <p>crypto text</p>
+    <!--Chart 23 -->
+    <div class="chart" id="chart23">
+      <script>
+        var myChart23 = "";
+        vegaEmbed('#chart23', myChart23);
       </script>
     </div>
   </div>

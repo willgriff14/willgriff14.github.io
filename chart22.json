@@ -1,0 +1,41 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }},
+  
+        "title": {
+        "text": "Indices interactive",
+        "subtitle":"Zoom in!",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+      
+      "height": 300,
+      "width": 310,
+  
+    "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/my_stocks_HW9.csv"},
+    "params": [{
+      "name": "grid",
+      "select": "interval",
+      "bind": "scales"
+    }],
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "^STOXX50E", "type": "quantitative",
+        "scale": {"domain": [2000, 5000]}
+      },
+      "y": {
+        "field": "^GSPC", "type": "quantitative",
+        "scale": {"domain": [2000, 5000]}
+      }
+    }
+  }
+  

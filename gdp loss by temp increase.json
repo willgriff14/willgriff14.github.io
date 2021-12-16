@@ -5,6 +5,13 @@
     "url": "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/main/data/chartENV15b.csv"
 
   },
+
+    "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },  
   
   "title": {
     "text": "GDP loss by temperature increase scenario",
@@ -41,12 +48,6 @@
       "field": "Country",
       "scale": {"scheme": "yellowgreenblue"},
       "legend": {"orient": "right", "titleColor": "white", "labelColor": "white"}
-    },
-    "tooltip": [
-      {"field": "Scenario", "type": "nominal"},
-      {"field": "Value 1", "type": "quantitative", "title": "GDP loss (%)"},
-      {"field": "Country", "type": "nominal"}
-    ]
   },
   "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}, "background": "#3a3a3a00",
     "view": {
@@ -55,4 +56,4 @@
 
   
 
-}
+    }}
