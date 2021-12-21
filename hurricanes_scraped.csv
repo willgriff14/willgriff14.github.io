@@ -17,8 +17,8 @@
 17,Texas,Ike,2,"Sep 13, 2008",2008
 18,Connecticut,Hurricane Irene,3,"Aug 28, 2011",2011
 19,North Carolina,Arthur,2,"Jul 4, 2014",2014
-20,Florida,Matthew,2,October 7,2016
-21,Texas,Harvey,4,August 26,2017
+20,Florida,Matthew,2,"Oct 7, 2016",2016
+21,Texas,Harvey,4,"Aug 26, 2017",2017
 23,Connecticut,Hurricane Able,2,"Sep 1, 1952",1952
 24,Maryland,Hazel,2,"Oct 15, 1954",1954
 25,Massachusetts,Edna,3,"Sep 11, 1954",1954
@@ -31,7 +31,7 @@
 32,Connecticut,Hurricane Carol,3,"Aug 31, 1954",1954
 33,North Carolina,Connie,3,"Aug 12, 1955",1955
 34,North Carolina,Ione,3,"Sep 19, 1955",1955
-35,Connecticut,Hurricane Diane,3,"August 18–19, 1955",1955
+35,Connecticut,Hurricane Diane,3,"August 18, 1955",1955
 36,Louisiana,Flossy,2,"Sep 24, 1956",1956
 37,Louisiana,Audrey,4,"Jun 27, 1957",1957
 38,Texas,Audrey,4,"Jun 27, 1957",1957
@@ -97,7 +97,7 @@
 98,North Carolina,Floyd,2,"Sep 16, 1999",1999
 99,North Carolina,Irene,2,"Oct 18, 1999",1999
 100,Texas,Bret,3,"Aug 23, 1999",1999
-101,Connecticut,Hurricane Floyd,4,"Sep 16 to 17, 1999",1999
+101,Connecticut,Hurricane Floyd,4,"Sep 16, 1999",1999
 103,Texas,Unnamed,4,"Sep 9, 1900",1900
 104,Alabama,Unnamed,2,"Sep 27, 1906",1906
 105,Florida,Unnamed,2,"Sep 27, 1906",1906
