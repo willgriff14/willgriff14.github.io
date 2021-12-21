@@ -1,262 +1,262 @@
-,State Name,Name,Saffir-Simpson Category,Date of closest approach,Year
-2,North Carolina,Isabel,2,"Sep 18, 2003",2003
-3,Alabama,Ivan,3,"Sep 16, 2004",2004
-4,Florida,Charley,4,"Aug 13, 2004",2004
-5,Florida,Frances,2,"Sep 5, 2004",2004
-6,Florida,Ivan,3,"Sep 16, 2004",2004
-7,Florida,Jeanne,3,"Sep 26, 2004",2004
-8,Alabama,Katrina,3,"Aug 29, 2005",2005
-9,Florida,Dennis,3,"Jul 10, 2005",2005
-10,Florida,Katrina,3,"Aug 25, 2005",2005
-11,Florida,Wilma,3,"Oct 24, 2005",2005
-12,Louisiana,Katrina,3,"Aug 29, 2005",2005
-13,Louisiana,Rita,5,"Sep 24, 2005",2005
-14,Mississippi,Katrina,3,"Aug 29, 2005",2005
-15,Texas,Rita,2,"Sep 24, 2005",2005
-16,Louisiana,Gustav,2,"Sep 1, 2008",2008
-17,Texas,Ike,2,"Sep 13, 2008",2008
-18,Connecticut,Hurricane Irene,3,"Aug 28, 2011",2011
-19,North Carolina,Arthur,2,"Jul 4, 2014",2014
-20,Florida,Matthew,2,"Oct 7, 2016",2016
-21,Texas,Harvey,4,"Aug 26, 2017",2017
-23,Connecticut,Hurricane Able,2,"Sep 1, 1952",1952
-24,Maryland,Hazel,2,"Oct 15, 1954",1954
-25,Massachusetts,Edna,3,"Sep 11, 1954",1954
-26,New York,Carol,3,"Aug 31, 1954",1954
-27,North Carolina,Carol,2,"Aug 31, 1954",1954
-28,North Carolina,Hazel,4,"Oct 15, 1954",1954
-29,Rhode Island,Carol,3,"Aug 31, 1954",1954
-30,South Carolina,Hazel,4,"Oct 15, 1954",1954
-31,Connecticut,Hurricane Edna,3,"Sep 11, 1954",1954
-32,Connecticut,Hurricane Carol,3,"Aug 31, 1954",1954
-33,North Carolina,Connie,3,"Aug 12, 1955",1955
-34,North Carolina,Ione,3,"Sep 19, 1955",1955
-35,Connecticut,Hurricane Diane,3,"August 18, 1955",1955
-36,Louisiana,Flossy,2,"Sep 24, 1956",1956
-37,Louisiana,Audrey,4,"Jun 27, 1957",1957
-38,Texas,Audrey,4,"Jun 27, 1957",1957
-39,North Carolina,Helene,3,"Sep 27, 1958",1958
-40,South Carolina,Gracie,3,"Sep 29, 1959",1959
-41,Florida,Donna,4,"Sep 10, 1960",1960
-42,New York,Donna,2,"Sep 12, 1960",1960
-43,North Carolina,Donna,3,"Sep 12, 1960",1960
-44,Rhode Island,Donna,2,"Sep 12, 1960",1960
-45,Connecticut,Hurricane Donna,5,"Sep 12, 1960",1960
-46,Texas,Carla,4,"Sep 11, 1961",1961
-47,Connecticut,Hurricane Esther,4,"Sep 26, 1961",1961
-48,Florida,Cleo,2,"Aug 27, 1964",1964
-49,Florida,Dora,2,"Sep 10, 1964",1964
-50,Florida,Isbell,2,"Oct 14, 1964",1964
-51,Louisiana,Hilda,3,"Oct 3, 1964",1964
-52,Florida,Betsy,3,"Sep 8, 1965",1965
-53,Louisiana,Betsy,3,"Sep 10, 1965",1965
-54,Florida,Alma,2,"Jun 9, 1966",1966
-55,Connecticut,Hurricane Alma,3,"Jun 13, 1966",1966
-56,Texas,Beulah,3,"Sep 20, 1967",1967
-57,Florida,Gladys,2,"Oct 19, 1968",1968
-58,Louisiana,Camille,5,"Aug 17, 1969",1969
-59,Mississippi,Camille,5,"Aug 18, 1969",1969
-60,Texas,Celia,3,"Aug 3, 1970",1970
-61,Louisiana,Edith,2,"Sep 16, 1971",1971
-62,Louisiana,Carmen,3,"Sep 8, 1974",1974
-63,Florida,Eloise,3,"Sep 23, 1975",1975
-64,Connecticut,Hurricane Belle,3,"Aug 10, 1976",1976
-65,Alabama,Frederic,3,"Sep 13, 1979",1979
-66,Florida,David,2,"Sep 3, 1979",1979
-67,Georgia,David,2,"Sep 4, 1979",1979
-68,Mississippi,Frederic,3,"Sep 13, 1979",1979
-69,South Carolina,David,2,"Sep 4, 1979",1979
-70,Texas,Allen,3,"Aug 10, 1980",1980
-71,Texas,Alicia,3,"Aug 18, 1983",1983
-72,North Carolina,Diana,2,"Sep 13, 1984",1984
-73,Alabama,Elena,3,"Sep 2, 1985",1985
-74,Florida,Elena,3,"Sep 1, 1985",1985
-75,Florida,Kate,2,"Nov 21, 1985",1985
-76,Mississippi,Elena,3,"Sep 2, 1985",1985
-77,New Hampshire,Gloria,2,"Sep 27, 1985",1985
-78,New York,Gloria,3,"Sep 27, 1985",1985
-79,North Carolina,Gloria,3,"Sep 27, 1985",1985
-80,Connecticut,Hurricane Gloria,4,"Sep 27, 1985",1985
-81,South Carolina,Hugo,4,"Sep 22, 1989",1989
-82,Massachusetts,Bob,2,"Aug 19, 1991",1991
-83,New York,Bob,2,"Aug 19, 1991",1991
-84,Rhode Island,Bob,2,"Aug 19, 1991",1991
-85,Connecticut,Hurricane Bob,3,"Aug 19, 1991",1991
-86,Florida,Andrew,5,"Aug 24, 1992",1992
-87,Louisiana,Andrew,3,"Aug 26, 1992",1992
-88,Hawaii,Iniki,4,"Sep 11, 1992",1992
-89,North Carolina,Emily,3,"Aug 31, 1993",1993
-90,Florida,Erin,2,"Aug 3, 1995",1995
-91,Florida,Opal,3,"Oct 4, 1995",1995
-92,North Carolina,Bertha,2,"Jul 12, 1996",1996
-93,North Carolina,Fran,3,"Sep 6, 1996",1996
-94,Connecticut,Hurricane Bertha,3,"Jul 13, 1996",1996
-95,Florida,Georges,2,"Sep 25, 1998",1998
-96,Mississippi,Georges,2,"Sep 29, 1998",1998
-97,North Carolina,Bonnie,2,"Aug 27, 1998",1998
-98,North Carolina,Floyd,2,"Sep 16, 1999",1999
-99,North Carolina,Irene,2,"Oct 18, 1999",1999
-100,Texas,Bret,3,"Aug 23, 1999",1999
-101,Connecticut,Hurricane Floyd,4,"Sep 16, 1999",1999
-103,Texas,Unnamed,4,"Sep 9, 1900",1900
-104,Alabama,Unnamed,2,"Sep 27, 1906",1906
-105,Florida,Unnamed,2,"Sep 27, 1906",1906
-106,Florida,Unnamed,3,"Oct 18, 1906",1906
-107,Mississippi,Unnamed,2,"Sep 27, 1906",1906
-108,Florida,Unnamed,3,"Oct 11, 1909",1909
-109,Louisiana,Unnamed,3,"Sep 20, 1909",1909
-110,Mississippi,Unnamed,2,"Sep 21, 1909",1909
-111,Texas,Unnamed,2,"Jun 29, 1909",1909
-112,Texas,Unnamed,3,"Jul 21, 1909",1909
-113,Florida,Unnamed,2,"Oct 18, 1910",1910
-114,Texas,Unnamed,2,"Sep 14, 1910",1910
-115,South Carolina,Unnamed,2,"Aug 28, 1911",1911
-116,Texas,Unnamed,2,"Oct 16, 1912",1912
-117,Louisiana,Unnamed,3,"Sep 29, 1915",1915
-118,Mississippi,Unnamed,2,"Sep 29, 1915",1915
-119,Texas,Unnamed,4,"Aug 17, 1915",1915
-120,Alabama,Unnamed,2,"Jul 5, 1916",1916
-121,Alabama,Unnamed,2,"Oct 18, 1916",1916
-122,Florida,Unnamed,2,"Jul 5, 1916",1916
-123,Florida,Unnamed,2,"Oct 18, 1916",1916
-124,Mississippi,Unnamed,3,"Jul 6, 1916",1916
-125,South Carolina,Unnamed,2,"Jul 14, 1916",1916
-126,Texas,Unnamed,4,"Aug 18, 1916",1916
-127,Florida,Unnamed,3,"Sep 29, 1917",1917
-128,Louisiana,Unnamed,2,"Sep 29, 1917",1917
-129,Louisiana,Unnamed,3,"Aug 7, 1918",1918
-130,Florida,Unnamed,4,"Sep 10, 1919",1919
-131,Texas,Unnamed,3,"Sep 14, 1919",1919
-132,Louisiana,Unnamed,2,"Sep 21, 1920",1920
-133,Florida,Unnamed,3,"Oct 25, 1921",1921
-134,Alabama,Unnamed,3,"Aug 21, 1926",1926
-135,Florida,Unnamed,2,"Jul 27, 1926",1926
-136,Florida,Unnamed,4,"Sep 18, 1926",1926
-137,Louisiana,Unnamed,3,"Aug 26, 1926",1926
-138,Florida,Unnamed,2,"Aug 8, 1928",1928
-139,Florida,Unnamed,4,"Sep 17, 1928",1928
-140,Florida,Unnamed,3,"Sep 28, 1929",1929
-141,Texas,Unnamed,4,"Aug 14, 1932",1932
-142,Florida,Unnamed,3,"Sep 4, 1933",1933
-143,Texas,Unnamed,2,"Aug 7, 1933",1933
-144,Texas,Unnamed,3,"Sep 5, 1933",1933
-145,Louisiana,Unnamed,2,"Jun 16, 1934",1934
-146,Texas,Unnamed,2,"Jul 25, 1934",1934
-147,Florida,Unnamed,5,"Sep 3, 1935",1935
-148,Florida,Unnamed,2,"Nov 4, 1935",1935
-149,Florida,Unnamed,2,"Jul 31, 1936",1936
-150,Massachusetts,Unnamed,3,"Sep 21, 1938",1938
-151,New York,Unnamed,3,"Sep 21, 1938",1938
-152,Rhode Island,Unnamed,3,"Sep 21, 1938",1938
-153,Connecticut,1938 New England hurricane,5,"Sep 21, 1938",1938
-154,Louisiana,Unnamed,2,"Aug 7, 1940",1940
-155,South Carolina,Unnamed,2,"Aug 11, 1940",1940
-156,Texas,Unnamed,2,"Aug 8, 1940",1940
-157,Florida,Unnamed,2,"Oct 6, 1941",1941
-158,Texas,Unnamed,3,"Sep 23, 1941",1941
-159,Texas,Unnamed,3,"Aug 30, 1942",1942
-160,Texas,Unnamed,2,"Jul 27, 1943",1943
-161,Florida,Unnamed,3,"Oct 19, 1944",1944
-162,New York,Unnamed,2,"Sep 15, 1944",1944
-163,North Carolina,Unnamed,2,"Sep 14, 1944",1944
-164,Rhode Island,Unnamed,2,"Sep 15, 1944",1944
-165,Virginia,Unnamed,2,"Sep 14, 1944",1944
-166,Connecticut,1944 Great Atlantic Hurricane,4,"Sep 15, 1944",1944
-167,Florida,Unnamed,3,"Sep 15, 1945",1945
-168,Texas,Unnamed,2,"Aug 27, 1945",1945
-169,Florida,Unnamed,4,"Sep 17, 1947",1947
-170,Georgia,Unnamed,2,"Oct 15, 1947",1947
-171,Louisiana,Unnamed,2,"Sep 19, 1947",1947
-172,Mississippi,Unnamed,2,"Sep 19, 1947",1947
-173,South Carolina,Unnamed,2,"Oct 15, 1947",1947
-174,Florida,Unnamed,4,"Sep 21, 1948",1948
-175,Florida,Unnamed,2,"Oct 5, 1948",1948
-176,Florida,Unnamed,4,"Aug 26, 1949",1949
-177,Texas,Unnamed,2,"Oct 4, 1949",1949
-178,Florida,Easy,3,"Sep 5, 1950",1950
-179,Florida,King,4,"Oct 18, 1950",1950
-181,Florida,Unnamed,3,"Aug 23, 1851",1851
-182,Alabama,Unnamed,3,"Aug 26, 1852",1852
-183,Florida,Unnamed,2,"Oct 9, 1852",1852
-184,Louisiana,Unnamed,2,"Aug 25, 1852",1852
-185,Mississippi,Unnamed,3,"Aug 26, 1852",1852
-186,Georgia,Unnamed,3,"Sep 8, 1854",1854
-187,South Carolina,Unnamed,2,"Sep 8, 1854",1854
-188,Texas,Unnamed,2,"Sep 18, 1854",1854
-189,Louisiana,Unnamed,3,"Sep 16, 1855",1855
-190,Mississippi,Unnamed,3,"Aug 16, 1855",1855
-191,Florida,Unnamed,2,"Aug 31, 1856",1856
-192,Louisiana,Unnamed,4,"Aug 11, 1856",1856
-193,Alabama,Unnamed,2,"Aug 12, 1860",1860
-194,Louisiana,Unnamed,3,"Aug 11, 1860",1860
-195,Louisiana,Unnamed,2,"Sep 15, 1860",1860
-196,Louisiana,Unnamed,2,"Oct 2, 1860",1860
-197,Mississippi,Unnamed,3,"Aug 12, 1860",1860
-198,Mississippi,Unnamed,2,"Sep 15, 1860",1860
-199,Florida,Unnamed,2,"Oct 23, 1865",1865
-200,Louisiana,Unnamed,2,"Sep 13, 1865",1865
-201,Texas,Unnamed,2,"Jul 15, 1866",1866
-202,Louisiana,Unnamed,2,"Oct 4, 1867",1867
-203,Connecticut,1869 Saxby Gale,2,"October 4, 1869",1869
-204,Connecticut,Hurricane Six,3,"September 9, 1869",1869
-205,Maine,Unnamed,2,"Oct 4, 1869",1869
-206,Massachusetts,Unnamed,3,"Sep 8, 1869",1869
-207,Texas,Unnamed,2,"Aug 17, 1869",1869
-208,Florida,Unnamed,3,"Aug 16, 1871",1871
-209,Florida,Unnamed,2,"Aug 25, 1871",1871
-210,Florida,Unnamed,3,"Oct 7, 1873",1873
-211,Texas,Unnamed,3,"Sep 16, 1875",1875
-212,Connecticut,San Felipe Hurricane,3,"September 19, 1876",1876
-213,Florida,Unnamed,2,"Oct 20, 1876",1876
-214,Connecticut,Unnamed,3,"October 5, 1877",1877
-215,Florida,Unnamed,3,"Oct 3, 1877",1877
-216,Connecticut,Gale of 1878,2,"October 24, 1878",1878
-217,Florida,Unnamed,2,"Sep 10, 1878",1878
-218,North Carolina,Unnamed,2,"Oct 23, 1878",1878
-219,Connecticut,Hurricane Two,3,"August 19, 1879",1879
-220,Louisiana,Unnamed,2,"Aug 23, 1879",1879
-221,Louisiana,Unnamed,3,"Sep 1, 1879",1879
-222,North Carolina,Unnamed,3,"Aug 18, 1879",1879
-223,Texas,Unnamed,2,"Aug 23, 1879",1879
-224,Virginia,Unnamed,2,"Aug 18, 1879",1879
-225,Florida,Unnamed,2,"Aug 29, 1880",1880
-226,Texas,Unnamed,3,"Aug 13, 1880",1880
-227,Georgia,Unnamed,2,"Aug 28, 1881",1881
-228,North Carolina,Unnamed,2,"Sep 9, 1881",1881
-229,Florida,Unnamed,3,"Sep 10, 1882",1882
-230,North Carolina,Unnamed,2,"Sep 11, 1883",1883
-231,North Carolina,Unnamed,2,"Sep 25, 1885",1885
-232,South Carolina,Unnamed,3,"Aug 25, 1885",1885
-233,Florida,Unnamed,2,"Jun 21, 1886",1886
-234,Florida,Unnamed,2,"Jun 30, 1886",1886
-235,Louisiana,Unnamed,2,"Jun 14, 1886",1886
-236,Louisiana,Unnamed,3,"Oct 12, 1886",1886
-237,Texas,Unnamed,2,"Jun 14, 1886",1886
-238,Texas,Unnamed,4,"Aug 20, 1886",1886
-239,Texas,Unnamed,2,"Oct 12, 1886",1886
-240,Texas,Unnamed,2,"Sep 21, 1887",1887
-241,Connecticut,Hurricane Three,3,"August 22, 1888",1888
-242,Connecticut,Hurricane Six,2,"September 25, 1889",1888
-243,Florida,Unnamed,3,"Aug 16, 1888",1888
-244,Florida,Unnamed,2,"Oct 11, 1888",1888
-245,Louisiana,Unnamed,2,"Aug 19, 1888",1888
-246,Alabama,Unnamed,2,"Oct 3, 1893",1893
-247,Connecticut,Hurricane Four,3,"August 24, 1893",1893
-248,Connecticut,1893 Sea Islands Hurricane,3,"August 29, 1893",1893
-249,Georgia,Unnamed,3,"Aug 28, 1893",1893
-250,Louisiana,Unnamed,2,"Sep 7, 1893",1893
-251,Louisiana,Unnamed,4,"Oct 2, 1893",1893
-252,Mississippi,Unnamed,2,"Oct 2, 1893",1893
-253,South Carolina,Unnamed,3,"Aug 28, 1893",1893
-254,South Carolina,Unnamed,3,"Oct 13, 1893",1893
-255,Florida,Unnamed,2,"Sep 25, 1894",1894
-256,Florida,Unnamed,3,"Oct 9, 1894",1894
-257,Florida,Unnamed,2,"Jul 7, 1896",1896
-258,Florida,Unnamed,3,"Sep 29, 1896",1896
-259,Georgia,Unnamed,2,"Sep 29, 1896",1896
-260,Florida,Unnamed,2,"Oct 2, 1898",1898
-261,Georgia,Unnamed,4,"Oct 2, 1898",1898
-262,Florida,Unnamed,2,"Aug 1, 1899",1899
-263,North Carolina,Unnamed,3,"Aug 18, 1899",1899
-264,North Carolina,Unnamed,2,"Oct 31, 1899",1899
-265,South Carolina,Unnamed,2,"Oct 31, 1899",1899
+,Unnamed: 0,State Name,Name,Saffir-Simpson Category,Date of closest approach,Year
+0,2,North Carolina,Isabel,2,2003-09-18 00:00:00,2003
+1,3,Alabama,Ivan,3,2004-09-16 00:00:00,2004
+2,4,Florida,Charley,4,2004-08-13 00:00:00,2004
+3,5,Florida,Frances,2,2004-09-05 00:00:00,2004
+4,6,Florida,Ivan,3,2004-09-16 00:00:00,2004
+5,7,Florida,Jeanne,3,2004-09-26 00:00:00,2004
+6,8,Alabama,Katrina,3,2005-08-29 00:00:00,2005
+7,9,Florida,Dennis,3,2005-07-10 00:00:00,2005
+8,10,Florida,Katrina,3,2005-08-25 00:00:00,2005
+9,11,Florida,Wilma,3,2005-10-24 00:00:00,2005
+10,12,Louisiana,Katrina,3,2005-08-29 00:00:00,2005
+11,13,Louisiana,Rita,5,2005-09-24 00:00:00,2005
+12,14,Mississippi,Katrina,3,2005-08-29 00:00:00,2005
+13,15,Texas,Rita,2,2005-09-24 00:00:00,2005
+14,16,Louisiana,Gustav,2,2008-09-01 00:00:00,2008
+15,17,Texas,Ike,2,2008-09-13 00:00:00,2008
+16,18,Connecticut,Hurricane Irene,3,2011-08-28 00:00:00,2011
+17,19,North Carolina,Arthur,2,2014-07-04 00:00:00,2014
+18,20,Florida,Matthew,2,2016-10-07 00:00:00,2016
+19,21,Texas,Harvey,4,2017-08-26 00:00:00,2017
+20,23,Connecticut,Hurricane Able,2,1952-09-01 00:00:00,1952
+21,24,Maryland,Hazel,2,1954-10-15 00:00:00,1954
+22,25,Massachusetts,Edna,3,1954-09-11 00:00:00,1954
+23,26,New York,Carol,3,1954-08-31 00:00:00,1954
+24,27,North Carolina,Carol,2,1954-08-31 00:00:00,1954
+25,28,North Carolina,Hazel,4,1954-10-15 00:00:00,1954
+26,29,Rhode Island,Carol,3,1954-08-31 00:00:00,1954
+27,30,South Carolina,Hazel,4,1954-10-15 00:00:00,1954
+28,31,Connecticut,Hurricane Edna,3,1954-09-11 00:00:00,1954
+29,32,Connecticut,Hurricane Carol,3,1954-08-31 00:00:00,1954
+30,33,North Carolina,Connie,3,1955-08-12 00:00:00,1955
+31,34,North Carolina,Ione,3,1955-09-19 00:00:00,1955
+32,35,Connecticut,Hurricane Diane,3,1955-08-18 00:00:00,1955
+33,36,Louisiana,Flossy,2,1956-09-24 00:00:00,1956
+34,37,Louisiana,Audrey,4,1957-06-27 00:00:00,1957
+35,38,Texas,Audrey,4,1957-06-27 00:00:00,1957
+36,39,North Carolina,Helene,3,1958-09-27 00:00:00,1958
+37,40,South Carolina,Gracie,3,1959-09-29 00:00:00,1959
+38,41,Florida,Donna,4,1960-09-10 00:00:00,1960
+39,42,New York,Donna,2,1960-09-12 00:00:00,1960
+40,43,North Carolina,Donna,3,1960-09-12 00:00:00,1960
+41,44,Rhode Island,Donna,2,1960-09-12 00:00:00,1960
+42,45,Connecticut,Hurricane Donna,5,1960-09-12 00:00:00,1960
+43,46,Texas,Carla,4,1961-09-11 00:00:00,1961
+44,47,Connecticut,Hurricane Esther,4,1961-09-26 00:00:00,1961
+45,48,Florida,Cleo,2,1964-08-27 00:00:00,1964
+46,49,Florida,Dora,2,1964-09-10 00:00:00,1964
+47,50,Florida,Isbell,2,1964-10-14 00:00:00,1964
+48,51,Louisiana,Hilda,3,1964-10-03 00:00:00,1964
+49,52,Florida,Betsy,3,1965-09-08 00:00:00,1965
+50,53,Louisiana,Betsy,3,1965-09-10 00:00:00,1965
+51,54,Florida,Alma,2,1966-06-09 00:00:00,1966
+52,55,Connecticut,Hurricane Alma,3,1966-06-13 00:00:00,1966
+53,56,Texas,Beulah,3,1967-09-20 00:00:00,1967
+54,57,Florida,Gladys,2,1968-10-19 00:00:00,1968
+55,58,Louisiana,Camille,5,1969-08-17 00:00:00,1969
+56,59,Mississippi,Camille,5,1969-08-18 00:00:00,1969
+57,60,Texas,Celia,3,1970-08-03 00:00:00,1970
+58,61,Louisiana,Edith,2,1971-09-16 00:00:00,1971
+59,62,Louisiana,Carmen,3,1974-09-08 00:00:00,1974
+60,63,Florida,Eloise,3,1975-09-23 00:00:00,1975
+61,64,Connecticut,Hurricane Belle,3,1976-08-10 00:00:00,1976
+62,65,Alabama,Frederic,3,1979-09-13 00:00:00,1979
+63,66,Florida,David,2,1979-09-03 00:00:00,1979
+64,67,Georgia,David,2,1979-09-04 00:00:00,1979
+65,68,Mississippi,Frederic,3,1979-09-13 00:00:00,1979
+66,69,South Carolina,David,2,1979-09-04 00:00:00,1979
+67,70,Texas,Allen,3,1980-08-10 00:00:00,1980
+68,71,Texas,Alicia,3,1983-08-18 00:00:00,1983
+69,72,North Carolina,Diana,2,1984-09-13 00:00:00,1984
+70,73,Alabama,Elena,3,1985-09-02 00:00:00,1985
+71,74,Florida,Elena,3,1985-09-01 00:00:00,1985
+72,75,Florida,Kate,2,1985-11-21 00:00:00,1985
+73,76,Mississippi,Elena,3,1985-09-02 00:00:00,1985
+74,77,New Hampshire,Gloria,2,1985-09-27 00:00:00,1985
+75,78,New York,Gloria,3,1985-09-27 00:00:00,1985
+76,79,North Carolina,Gloria,3,1985-09-27 00:00:00,1985
+77,80,Connecticut,Hurricane Gloria,4,1985-09-27 00:00:00,1985
+78,81,South Carolina,Hugo,4,1989-09-22 00:00:00,1989
+79,82,Massachusetts,Bob,2,1991-08-19 00:00:00,1991
+80,83,New York,Bob,2,1991-08-19 00:00:00,1991
+81,84,Rhode Island,Bob,2,1991-08-19 00:00:00,1991
+82,85,Connecticut,Hurricane Bob,3,1991-08-19 00:00:00,1991
+83,86,Florida,Andrew,5,1992-08-24 00:00:00,1992
+84,87,Louisiana,Andrew,3,1992-08-26 00:00:00,1992
+85,88,Hawaii,Iniki,4,1992-09-11 00:00:00,1992
+86,89,North Carolina,Emily,3,1993-08-31 00:00:00,1993
+87,90,Florida,Erin,2,1995-08-03 00:00:00,1995
+88,91,Florida,Opal,3,1995-10-04 00:00:00,1995
+89,92,North Carolina,Bertha,2,1996-07-12 00:00:00,1996
+90,93,North Carolina,Fran,3,1996-09-06 00:00:00,1996
+91,94,Connecticut,Hurricane Bertha,3,1996-07-13 00:00:00,1996
+92,95,Florida,Georges,2,1998-09-25 00:00:00,1998
+93,96,Mississippi,Georges,2,1998-09-29 00:00:00,1998
+94,97,North Carolina,Bonnie,2,1998-08-27 00:00:00,1998
+95,98,North Carolina,Floyd,2,1999-09-16 00:00:00,1999
+96,99,North Carolina,Irene,2,1999-10-18 00:00:00,1999
+97,100,Texas,Bret,3,1999-08-23 00:00:00,1999
+98,101,Connecticut,Hurricane Floyd,4,1999-09-16 00:00:00,1999
+99,103,Texas,Unnamed,4,1900-09-09 00:00:00,1900
+100,104,Alabama,Unnamed,2,1906-09-27 00:00:00,1906
+101,105,Florida,Unnamed,2,1906-09-27 00:00:00,1906
+102,106,Florida,Unnamed,3,1906-10-18 00:00:00,1906
+103,107,Mississippi,Unnamed,2,1906-09-27 00:00:00,1906
+104,108,Florida,Unnamed,3,1909-10-11 00:00:00,1909
+105,109,Louisiana,Unnamed,3,1909-09-20 00:00:00,1909
+106,110,Mississippi,Unnamed,2,1909-09-21 00:00:00,1909
+107,111,Texas,Unnamed,2,1909-06-29 00:00:00,1909
+108,112,Texas,Unnamed,3,1909-07-21 00:00:00,1909
+109,113,Florida,Unnamed,2,1910-10-18 00:00:00,1910
+110,114,Texas,Unnamed,2,1910-09-14 00:00:00,1910
+111,115,South Carolina,Unnamed,2,1911-08-28 00:00:00,1911
+112,116,Texas,Unnamed,2,1912-10-16 00:00:00,1912
+113,117,Louisiana,Unnamed,3,1915-09-29 00:00:00,1915
+114,118,Mississippi,Unnamed,2,1915-09-29 00:00:00,1915
+115,119,Texas,Unnamed,4,1915-08-17 00:00:00,1915
+116,120,Alabama,Unnamed,2,1916-07-05 00:00:00,1916
+117,121,Alabama,Unnamed,2,1916-10-18 00:00:00,1916
+118,122,Florida,Unnamed,2,1916-07-05 00:00:00,1916
+119,123,Florida,Unnamed,2,1916-10-18 00:00:00,1916
+120,124,Mississippi,Unnamed,3,1916-07-06 00:00:00,1916
+121,125,South Carolina,Unnamed,2,1916-07-14 00:00:00,1916
+122,126,Texas,Unnamed,4,1916-08-18 00:00:00,1916
+123,127,Florida,Unnamed,3,1917-09-29 00:00:00,1917
+124,128,Louisiana,Unnamed,2,1917-09-29 00:00:00,1917
+125,129,Louisiana,Unnamed,3,1918-08-07 00:00:00,1918
+126,130,Florida,Unnamed,4,1919-09-10 00:00:00,1919
+127,131,Texas,Unnamed,3,1919-09-14 00:00:00,1919
+128,132,Louisiana,Unnamed,2,1920-09-21 00:00:00,1920
+129,133,Florida,Unnamed,3,1921-10-25 00:00:00,1921
+130,134,Alabama,Unnamed,3,1926-08-21 00:00:00,1926
+131,135,Florida,Unnamed,2,1926-07-27 00:00:00,1926
+132,136,Florida,Unnamed,4,1926-09-18 00:00:00,1926
+133,137,Louisiana,Unnamed,3,1926-08-26 00:00:00,1926
+134,138,Florida,Unnamed,2,1928-08-08 00:00:00,1928
+135,139,Florida,Unnamed,4,1928-09-17 00:00:00,1928
+136,140,Florida,Unnamed,3,1929-09-28 00:00:00,1929
+137,141,Texas,Unnamed,4,1932-08-14 00:00:00,1932
+138,142,Florida,Unnamed,3,1933-09-04 00:00:00,1933
+139,143,Texas,Unnamed,2,1933-08-07 00:00:00,1933
+140,144,Texas,Unnamed,3,1933-09-05 00:00:00,1933
+141,145,Louisiana,Unnamed,2,1934-06-16 00:00:00,1934
+142,146,Texas,Unnamed,2,1934-07-25 00:00:00,1934
+143,147,Florida,Unnamed,5,1935-09-03 00:00:00,1935
+144,148,Florida,Unnamed,2,1935-11-04 00:00:00,1935
+145,149,Florida,Unnamed,2,1936-07-31 00:00:00,1936
+146,150,Massachusetts,Unnamed,3,1938-09-21 00:00:00,1938
+147,151,New York,Unnamed,3,1938-09-21 00:00:00,1938
+148,152,Rhode Island,Unnamed,3,1938-09-21 00:00:00,1938
+149,153,Connecticut,1938 New England hurricane,5,1938-09-21 00:00:00,1938
+150,154,Louisiana,Unnamed,2,1940-08-07 00:00:00,1940
+151,155,South Carolina,Unnamed,2,1940-08-11 00:00:00,1940
+152,156,Texas,Unnamed,2,1940-08-08 00:00:00,1940
+153,157,Florida,Unnamed,2,1941-10-06 00:00:00,1941
+154,158,Texas,Unnamed,3,1941-09-23 00:00:00,1941
+155,159,Texas,Unnamed,3,1942-08-30 00:00:00,1942
+156,160,Texas,Unnamed,2,1943-07-27 00:00:00,1943
+157,161,Florida,Unnamed,3,1944-10-19 00:00:00,1944
+158,162,New York,Unnamed,2,1944-09-15 00:00:00,1944
+159,163,North Carolina,Unnamed,2,1944-09-14 00:00:00,1944
+160,164,Rhode Island,Unnamed,2,1944-09-15 00:00:00,1944
+161,165,Virginia,Unnamed,2,1944-09-14 00:00:00,1944
+162,166,Connecticut,1944 Great Atlantic Hurricane,4,1944-09-15 00:00:00,1944
+163,167,Florida,Unnamed,3,1945-09-15 00:00:00,1945
+164,168,Texas,Unnamed,2,1945-08-27 00:00:00,1945
+165,169,Florida,Unnamed,4,1947-09-17 00:00:00,1947
+166,170,Georgia,Unnamed,2,1947-10-15 00:00:00,1947
+167,171,Louisiana,Unnamed,2,1947-09-19 00:00:00,1947
+168,172,Mississippi,Unnamed,2,1947-09-19 00:00:00,1947
+169,173,South Carolina,Unnamed,2,1947-10-15 00:00:00,1947
+170,174,Florida,Unnamed,4,1948-09-21 00:00:00,1948
+171,175,Florida,Unnamed,2,1948-10-05 00:00:00,1948
+172,176,Florida,Unnamed,4,1949-08-26 00:00:00,1949
+173,177,Texas,Unnamed,2,1949-10-04 00:00:00,1949
+174,178,Florida,Easy,3,1950-09-05 00:00:00,1950
+175,179,Florida,King,4,1950-10-18 00:00:00,1950
+176,181,Florida,Unnamed,3,1851-08-23 00:00:00,1851
+177,182,Alabama,Unnamed,3,1852-08-26 00:00:00,1852
+178,183,Florida,Unnamed,2,1852-10-09 00:00:00,1852
+179,184,Louisiana,Unnamed,2,1852-08-25 00:00:00,1852
+180,185,Mississippi,Unnamed,3,1852-08-26 00:00:00,1852
+181,186,Georgia,Unnamed,3,1854-09-08 00:00:00,1854
+182,187,South Carolina,Unnamed,2,1854-09-08 00:00:00,1854
+183,188,Texas,Unnamed,2,1854-09-18 00:00:00,1854
+184,189,Louisiana,Unnamed,3,1855-09-16 00:00:00,1855
+185,190,Mississippi,Unnamed,3,1855-08-16 00:00:00,1855
+186,191,Florida,Unnamed,2,1856-08-31 00:00:00,1856
+187,192,Louisiana,Unnamed,4,1856-08-11 00:00:00,1856
+188,193,Alabama,Unnamed,2,1860-08-12 00:00:00,1860
+189,194,Louisiana,Unnamed,3,1860-08-11 00:00:00,1860
+190,195,Louisiana,Unnamed,2,1860-09-15 00:00:00,1860
+191,196,Louisiana,Unnamed,2,1860-10-02 00:00:00,1860
+192,197,Mississippi,Unnamed,3,1860-08-12 00:00:00,1860
+193,198,Mississippi,Unnamed,2,1860-09-15 00:00:00,1860
+194,199,Florida,Unnamed,2,1865-10-23 00:00:00,1865
+195,200,Louisiana,Unnamed,2,1865-09-13 00:00:00,1865
+196,201,Texas,Unnamed,2,1866-07-15 00:00:00,1866
+197,202,Louisiana,Unnamed,2,1867-10-04 00:00:00,1867
+198,203,Connecticut,1869 Saxby Gale,2,1869-10-04 00:00:00,1869
+199,204,Connecticut,Hurricane Six,3,1869-09-09 00:00:00,1869
+200,205,Maine,Unnamed,2,1869-10-04 00:00:00,1869
+201,206,Massachusetts,Unnamed,3,1869-09-08 00:00:00,1869
+202,207,Texas,Unnamed,2,1869-08-17 00:00:00,1869
+203,208,Florida,Unnamed,3,1871-08-16 00:00:00,1871
+204,209,Florida,Unnamed,2,1871-08-25 00:00:00,1871
+205,210,Florida,Unnamed,3,1873-10-07 00:00:00,1873
+206,211,Texas,Unnamed,3,1875-09-16 00:00:00,1875
+207,212,Connecticut,San Felipe Hurricane,3,1876-09-19 00:00:00,1876
+208,213,Florida,Unnamed,2,1876-10-20 00:00:00,1876
+209,214,Connecticut,Unnamed,3,1877-10-05 00:00:00,1877
+210,215,Florida,Unnamed,3,1877-10-03 00:00:00,1877
+211,216,Connecticut,Gale of 1878,2,1878-10-24 00:00:00,1878
+212,217,Florida,Unnamed,2,1878-09-10 00:00:00,1878
+213,218,North Carolina,Unnamed,2,1878-10-23 00:00:00,1878
+214,219,Connecticut,Hurricane Two,3,1879-08-19 00:00:00,1879
+215,220,Louisiana,Unnamed,2,1879-08-23 00:00:00,1879
+216,221,Louisiana,Unnamed,3,1879-09-01 00:00:00,1879
+217,222,North Carolina,Unnamed,3,1879-08-18 00:00:00,1879
+218,223,Texas,Unnamed,2,1879-08-23 00:00:00,1879
+219,224,Virginia,Unnamed,2,1879-08-18 00:00:00,1879
+220,225,Florida,Unnamed,2,1880-08-29 00:00:00,1880
+221,226,Texas,Unnamed,3,1880-08-13 00:00:00,1880
+222,227,Georgia,Unnamed,2,1881-08-28 00:00:00,1881
+223,228,North Carolina,Unnamed,2,1881-09-09 00:00:00,1881
+224,229,Florida,Unnamed,3,1882-09-10 00:00:00,1882
+225,230,North Carolina,Unnamed,2,1883-09-11 00:00:00,1883
+226,231,North Carolina,Unnamed,2,1885-09-25 00:00:00,1885
+227,232,South Carolina,Unnamed,3,1885-08-25 00:00:00,1885
+228,233,Florida,Unnamed,2,1886-06-21 00:00:00,1886
+229,234,Florida,Unnamed,2,1886-06-30 00:00:00,1886
+230,235,Louisiana,Unnamed,2,1886-06-14 00:00:00,1886
+231,236,Louisiana,Unnamed,3,1886-10-12 00:00:00,1886
+232,237,Texas,Unnamed,2,1886-06-14 00:00:00,1886
+233,238,Texas,Unnamed,4,1886-08-20 00:00:00,1886
+234,239,Texas,Unnamed,2,1886-10-12 00:00:00,1886
+235,240,Texas,Unnamed,2,1887-09-21 00:00:00,1887
+236,241,Connecticut,Hurricane Three,3,1888-08-22 00:00:00,1888
+237,242,Connecticut,Hurricane Six,2,1889-09-25 00:00:00,1888
+238,243,Florida,Unnamed,3,1888-08-16 00:00:00,1888
+239,244,Florida,Unnamed,2,1888-10-11 00:00:00,1888
+240,245,Louisiana,Unnamed,2,1888-08-19 00:00:00,1888
+241,246,Alabama,Unnamed,2,1893-10-03 00:00:00,1893
+242,247,Connecticut,Hurricane Four,3,1893-08-24 00:00:00,1893
+243,248,Connecticut,1893 Sea Islands Hurricane,3,1893-08-29 00:00:00,1893
+244,249,Georgia,Unnamed,3,1893-08-28 00:00:00,1893
+245,250,Louisiana,Unnamed,2,1893-09-07 00:00:00,1893
+246,251,Louisiana,Unnamed,4,1893-10-02 00:00:00,1893
+247,252,Mississippi,Unnamed,2,1893-10-02 00:00:00,1893
+248,253,South Carolina,Unnamed,3,1893-08-28 00:00:00,1893
+249,254,South Carolina,Unnamed,3,1893-10-13 00:00:00,1893
+250,255,Florida,Unnamed,2,1894-09-25 00:00:00,1894
+251,256,Florida,Unnamed,3,1894-10-09 00:00:00,1894
+252,257,Florida,Unnamed,2,1896-07-07 00:00:00,1896
+253,258,Florida,Unnamed,3,1896-09-29 00:00:00,1896
+254,259,Georgia,Unnamed,2,1896-09-29 00:00:00,1896
+255,260,Florida,Unnamed,2,1898-10-02 00:00:00,1898
+256,261,Georgia,Unnamed,4,1898-10-02 00:00:00,1898
+257,262,Florida,Unnamed,2,1899-08-01 00:00:00,1899
+258,263,North Carolina,Unnamed,3,1899-08-18 00:00:00,1899
+259,264,North Carolina,Unnamed,2,1899-10-31 00:00:00,1899
+260,265,South Carolina,Unnamed,2,1899-10-31 00:00:00,1899
