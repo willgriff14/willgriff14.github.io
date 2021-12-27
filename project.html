@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-<!-- Richard Davies, Data Science 2021 -->
 
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 <head>
 
-  <link rel="stylesheet" href="index.css">  
+  <link rel="stylesheet" href="project.css">  
 
 <!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
  
   <title>Wills Project</title>
@@ -39,48 +38,170 @@
 <body>
 
   <main>
-    <h2>Impact of Climate Change on Stock Market Volatility</h2>
+    <h2>Does Climate Change Impact Stock Market <span style = "color: #05f7ff; background-color: black;">
+      Volatility</span>?</h2>
   </main>
 
-  <div id="content1">
-    <p>Covid cases text</p>
-
 <!--Chart 1 -->
+  <div id="content1">
+    <p>VIX</p>
 <div class="chart" id="chart1">
     <script>
-      var myChart1 = "chart1_covidUKRegions.json";
+      var myChart1 = "vixchart.json";
       vegaEmbed('#chart1', myChart1);
     </script>
 </div>
 
 </div>
 
-<div id="content2">
-  <p>Labour productivity text</p>
 
-  <!--Chart 2 -->
+<!--Chart 2 -->
+<div id="content2">
+  <p>
+    <span style = "text-transform: capitalize;">
+      I</span> began by collecting data on extreme weather events
+    within the US...
+  </p>
   <div class="chart" id="chart2">
       <script>
-        var myChart2 = "chart2_ukProductivity.json";
+        var myChart2 = "hurricanes_State.json";
         vegaEmbed('#chart2', myChart2);
       </script>
   </div>
 
 </div>
 
+
+  <!--Chart 3 -->
 <div id="content3">
   <p>crypto text</p>
 
-  <!--Chart 3 -->
   <div class="chart" id="chart3">
       <script>
-        var myChart3 = "chartcrypto11.json";
+        var myChart3 = "MAchart.json";
         vegaEmbed('#chart3', myChart3);
       </script>
   </div>
-    
-
 </div>
+
+<!--Chart 4 -->
+  <div id="content4">
+    <p>
+      <span style = "text-transform: capitalize;">
+      despite</span> pledges made at the climate summit
+      <span style = "text-transform: uppercase;">
+        cop</span>26, the world is still heading for 
+      between 2.4 to 2.9 degrees celcius of warming
+      by 2100. <span style = "text-transform: capitalize;">
+        The</span> aim of this project is to investigate 
+      the if climate change has an impact on 
+      volatility within the stock market, and if so, how?
+<br/>
+<br/>
+      <span style = "text-transform: capitalize;">
+        I</span> will begin my research by focusing on
+    the US due to data availibility and lengths of 
+    time series available.
+    </p>
+
+    <div class="chart" id="chart4">
+        <script>
+          var myChart4 = "";
+          vegaEmbed('#chart4', myChart4);
+        </script>
+    </div>
+</div>
+
+<!--Chart 5 -->
+<div id="content5">
+  <p><span style = "text-transform: uppercase;">
+    us</span> Extreme Climate events</p>
+ 
+  <div class="chart" id="chart5">
+      <script>
+        var myChart5 = "US climate events.json";
+        vegaEmbed('#chart5', myChart5);
+      </script>
+  </div>
+</div>
+
+  <!--Chart 6 -->
+<div id="content6">
+  <p>I embedded this chart from the Rapidcharts repository.
+    It the mean global monthly temperate change. We can see 
+    a clear linear uptrend from this chart.
+  </p>
+
+
+  <div class="chart" id="chart6">
+      <script>
+        var myChart6 = "globaltemps.json";
+        vegaEmbed('#chart6', myChart6);
+      </script>
+  </div>
+</div>
+
+  <!--Chart 7 -->
+<div id="content7">
+  <p>crypto text</p>
+
+  <div class="chart" id="chart7">
+      <script>
+        var myChart7 = "";
+        vegaEmbed('#chart7', myChart7);
+      </script>
+  </div>
+</div>
+
+ <!--Chart 8 -->
+<div id="content8">
+  <p>crypto text</p>
+
+  <div class="chart" id="chart8">
+      <script>
+        var myChart8 = "";
+        vegaEmbed('#chart8', myChart8);
+      </script>
+  </div>
+</div>
+
+  <!--Chart 9 -->
+<div id="content9">
+  <p>crypto text</p>
+
+  <div class="chart" id="chart9">
+      <script>
+        var myChart9 = "";
+        vegaEmbed('#chart9', myChart9);
+      </script>
+  </div>
+</div>
+
+  <!--Chart 10 -->
+<div id="content10">
+  <p>crypto text</p>
+
+  <div class="chart" id="chart10">
+      <script>
+        var myChart10 = "";
+        vegaEmbed('#chart10', myChart10);
+      </script>
+  </div>
+</div>
+
+<!--Chart 11 -->
+<div id="content11">
+  <p>crypto text</p>
+
+  <div class="chart" id="chart11">
+      <script>
+        var myChart11 = "";
+        vegaEmbed('#chart11', myChart11);
+      </script>
+  </div>
+</div>
+
+
 
 </body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->

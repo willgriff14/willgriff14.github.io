@@ -10,7 +10,7 @@
   
     "title": {
       "text": "CPI Index",
-      "subtitle":"CPI Index",
+      "subtitle":"Source: FRED",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

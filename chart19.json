@@ -10,7 +10,7 @@
   
     "title": {
       "text": "IBM API",
-      "subtitle":"From AlphaVantage",
+      "subtitle":"Source: AlphaVantage",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

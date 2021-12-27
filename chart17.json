@@ -1,67 +1,34 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-    
+
   "config":{
     "background": "#3a3a3a00",
     "view": {
       "stroke": "transparent"
-  }
+  }, "legend": {"title":null, "orient": "right"}
   },
   
     "title": {
-      "text": "ONS and Statista Data",
-      "subtitle":"20% of UK jobs are not green",
+      "text": "UK Green Jobs",
+      "subtitle":"Source: ONS, Statista",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",
       "anchor": "start",
       "color": "white"
     },
-    
-     "data": {
-      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/green%20jobs.csv",
-      "format": {"type": "csv"}
-    },
-    
-    
-    "height": 300,
-    "width": 310,
-     
-  "encoding": {
-    "x": {"timeUnit": "yearmonthdate", "field": "Date", "axis": {"labelColor": "white", "titleColor": "white"}},
-    "tooltip": [
-      {"timeUnit": "yearmonthdate", "field": "Date"},
-      {"field": "Total Employment", "type": "quantitative"},
-      {"field": "Estimate", "type": "quantitative"}
+
+  "data": {
+    "values": [
+      {"category": "Total Employment", "value": 32800000},
+      {"category": "ONS number of green jobs estimate", "value": 202100},
+      {"category": "Claimed number of green jobs", "value": 6560000}
     ]
   },
-  "layer": [{
-    "mark": {"type": "area", "color": "pink"},
-    "encoding": {
-      "y": {"field": "Total Employment", "type": "quantitative"}
-    }
-  }, {
-    "mark": {"type": "area", "color": "#05f7ff"},
-    "encoding": {
-      "y": {"field": "Estimate", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white"}}
-    }
-  }, {
-    "mark": "rule",
-    "params": [{
-      "name": "hover",
-      "select": {"type": "point", "on": "mouseover"}
-    }],
-    "encoding": {
-      "color": {
-        "condition": {
-          "param": "hover",
-          "empty": false,
-          "value": "white"
-        },
-        "value": "transparent"
-      }
-    }
-  }],
-  "config": {"axisY": {"minExtent": 30}}
+  "mark": {"type": "arc", "innerRadius": 50, "stroke":"#1f1f1f"},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative"},
+    "color": {"field": "category", "type": "nominal", "scale":{"scheme": "pastel1"}, "legend":{"titleColor":"white", "labelColor":"white"}}
+  }
 }

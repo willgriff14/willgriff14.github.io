@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- Richard Davies, Data Science 2021 -->
 
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -12,8 +11,8 @@
   
 
 <!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
  
   <title>Will Griffin</title>
@@ -46,8 +45,8 @@
 <!--Chart 1 -->
   <div id="content1">
       <h3>Homework 1 </h3>
-      <p>This chart shows UK covid cases by region. I embedded this 
-        chart from the repository of charts from rapidcharts.</p>
+      <p>This chart shows the number of UK covid cases by region from December 2020 onwards. I embedded this 
+        chart from rapidcharts.</p>
   <div class="chart" id="chart1">
       <script>
         var myChart1 = "chart1_covidUKRegions.json";
@@ -75,7 +74,8 @@
   <div id="content3">
     <h3>Homework 1 </h3>
     <p>The final chart I embedded for homework 1 shows
-      the 1 day price change of five major cryptocurrencies.</p>
+      the 1 day price change of five major cryptocurrencies:
+    Bitcoin, Etherium, Binance Coin, Ripple, Dogecoin.</p>
     <div class="chart" id="chart3">
         <script>
           var myChart3 = "chartcrypto11.json";
@@ -88,8 +88,9 @@
 <!--Chart 4 -->
   <div id="content4">
     <h3>Homework 2 </h3>
-    <p>I created a chart from an API of the same Covid data 
-      that is in my GitHub respository.</p>
+    <p>I created this chart directly from the UK government's API
+      on Covid-19 vaccination data. It shows the total number of people
+    who have been double vaccinated in the Hounslow and Trafford areas.</p>
     <div class="chart" id="chart4">
     <script>
     var myChart4 = "covidcases.json";
@@ -102,8 +103,11 @@
 <!--Chart 5 -->
   <div id="content5">
     <h3>Homework 2 </h3>
-    <p>This is the second chart I embebbed to my site which
-      uses an API for Covid data.</p>
+    <p>I also created this chart from the UK government Covid-19
+      data. I saved the raw data to my github repositry and hosted
+    it from there. It shows the number of new covid-19 cases for Powsy,
+  Surrey Heath, and Westminster from the beginning of the pandemic to
+October 2021.</p>
     <div class="chart" id="chart5">
         <script>
           var myChart5 = "raw data.json";
@@ -115,9 +119,9 @@
   <!--Chart 6 -->   
   <div id="content6">
     <h3>Homework 3 </h3>
-    <p>This chart shows VIX historical data. I manually added
-      the last entry of 7.77777 for 2021-10-19 (this is a
-      fictional value).</p>
+    <p>This chart shows the complete VIX historical data. I manually added
+      the last entry to the CSV file of 7.77777 for 2021-10-19 (this is a
+      fictional value). *See adjusted file*.</p>
     <div class="chart" id="chart6">
       <script>
         var myChart6 = "vixchart.json";
@@ -127,12 +131,12 @@
   </div>
 
   <div id="content7">
-    <p>monthly global temps text</p>
+    <p>text here</p>
     
     <!--Chart 7 -->
     <div class="chart" id="chart7">
       <script>
-        var myChart7 = "globaltemps.json";
+        var myChart7 = "";
         vegaEmbed('#chart7', myChart7);
       </script>
     </div>
@@ -166,9 +170,9 @@
     <!--Chart 10 -->
   <div id="content10">      
     <h3>Homework 5 </h3>
-    <p>I used a python loop to batch download data from an API.
-      I produced five charts with this. This is the first chart 
-      and it shows the US CPI index.</p>
+    <p>I used a python loop to batch download data from an API and produce 
+      five charts. This is the first chart 
+      and it shows the US CPI index history. *see code*</p>
     <div class="chart" id="chart10">
       <script>
         var myChart10 = "chart10.json";
@@ -181,7 +185,7 @@
   <div id="content11">      
     <h3>Homework 5 </h3>
     <p>This is the second chart I downloaded with the Python loop
-      and it shows market yield on US 10 year treasuries.</p>
+      and it shows market yield on US 10 year treasuries. *see code*</p>
     <div class="chart" id="chart11">
       <script>
         var myChart11 = "chart11.json";
@@ -194,9 +198,8 @@
     <!--Chart 12 -->
   <div id="content12">      
     <h3>Homework 5 </h3>
-    <p>This is the third chart I produced as part of homework 5
-      (using Python loop). This is a chart  of US industrial
-      production.</p>
+    <p>The third chart using the Python loop shows US industrial
+      production index history. *see code*</p>
     <div class="chart" id="chart12">
       <script>
         var myChart12 = "chart12.json";
@@ -211,7 +214,7 @@
     <h3>Homework 5 </h3>
     <p>This is the fourth chart I produced using the Python loop.
       It shows median weekly earnings within the US beginning from 
-      1980.</p>
+      1980. *see code*</p>
     <div class="chart" id="chart13">
       <script>
         var myChart13 = "chart13.json";
@@ -223,7 +226,7 @@
   <div id="content14">      
     <h3>Homework 5 </h3>
     <p>This is the final chart I created as part of homework 5.
-      This chart shows US Nonfarm payroll from 1940 to 2021.</p>
+      This chart shows US Nonfarm payroll from 1940 to 2021. *see code*</p>
     <!--Chart 14 -->
     <div class="chart" id="chart14">
       <script>
@@ -238,7 +241,7 @@
   <div id="content15">      
     <h3>Homework 3 </h3>
     <p>I manually entered data of the VIX index within Vega Lite
-      by writing JSON by hand to produce this chart.</p>
+    to produce this chart. <a style = " white-space:nowrap; color: white;" href="vixmanualentry.json">view code</a></p>
     <div class="chart" id="chart15">
       <script>
         var myChart15 = "vixmanualentry.json";
@@ -251,7 +254,7 @@
   <div id="content16">      
     <h3>Homework 4 </h3>  
     <p>I signed up and gained access to CoinAPI to produce this
-      chart. It shows the price of bitcoin from 2017 to..</p>
+      chart. It shows the price of bitcoin from 1st Jan 2018 to 1st Jan 2020.</p>
     <div class="chart" id="chart16">
       <script>
         var myChart16 = "chart16.json";
@@ -267,7 +270,8 @@
       one of the speakers claimed that 20% of current jobs
       within the UK are considred to be green. This chart shows 
       total UK employment within Low Carbon and Renewable Energy Economy 
-      (LCREE) estimates from the ONS.</p>
+      (LCREE) estimates from the ONS and Statista UK employment numbers. 
+    *click here to see data*</p>
     <div class="chart" id="chart17">
       <script>
         var myChart17 = "chart17.json";
@@ -280,10 +284,10 @@
   <div id="content18">      
     <h3>Homework 7 </h3>  
     <p>I built a scraper using PANDAS within Python to scrape data from
-      Wikipedia. This shows stock market Milestones througout the 1990s.</p>
+      mapsofworld.com. This shows number of US hurricanes per year by state. *see code*.</p>
     <div class="chart" id="chart18">
       <script>
-        var myChart18 = "chart18.json";
+        var myChart18 = "hurricanes_state.json";
         vegaEmbed('#chart18', myChart18);
       </script>
     </div>
@@ -307,7 +311,7 @@
     <h3>Homework 9 </h3>
     <p>This is a chart of S&P500 index against the EUROSTOXX 50
       index. I produced a linear regression and correlation
-      coefficient within Vega Lite.</p>
+      coefficient within Vega Lite.  <a style = " white-space:nowrap; color: white;" href="chart20.json">view code</a></p>
     <div class="chart" id="chart20">
       <script>
         var myChart20 = "chart20.json";
@@ -318,7 +322,10 @@
 
   <div id="content21">      
     <h3>Homework 10 </h3>  
-    <p>crypto text</p>
+    <p>This interactive chart compares four US Treasury Bonds
+      over 2021. Hover over the graph for values of each bond.
+      <a style = " white-space:nowrap; color: white;" href="chart21.json">view code</a>
+    </p>
     <!--Chart 21 -->
     <div class="chart" id="chart21">
       <script>
@@ -329,8 +336,11 @@
   </div>
 
   <div id="content22">      
-    
-    <p>crypto text</p>
+    <h3>Homework 10 </h3>  
+    <p>This is an interactive chart of the closing prices of S&P 500 against 
+      EURO STOXX 50. Scroll up and down to zoom in and out.
+      click and hold to move around the chart.  <a style = " white-space:nowrap; color: white;" href="chart22.json">view code</a>
+    </p>
     <!--Chart 22 -->
     <div class="chart" id="chart22">
       <script>

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+"config":{
+  "background": "#3a3a3a00",
+  "view": {
+    "stroke": "transparent"
+},"legend": {"titleColor":"white", "labelColor":"white", "orient": "bottom"}
+},
+
+  "title": {
+    "text": "Number of US Hurricanes per year by State",
+    "subtitle":"Source: www.mapsofworld.com",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "subtitleColor": "white",
+    "anchor": "start",
+    "color": "white"
+  },
+  
+  "height": 300,
+  "width": 310,
+
+  "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/hurricanes_scraped.csv"},
+  
+  "mark": {"type": "circle", "color":"#05f7ff"},
+  "encoding": {
+    "x": {
+      "field": "Year", "type": "temporal"
+    , "axis": {"labelColor": "white", "title":null}},
+    "y": {
+      "field": "State Name", "axis": {"labelColor": "white", "title":null}
+    },
+    "size": {"aggregate": "count"}
+  }
+}

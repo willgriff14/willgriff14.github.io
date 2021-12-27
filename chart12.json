@@ -10,7 +10,7 @@
   
     "title": {
       "text": "Industrial Production: Total Index",
-      "subtitle":"INDPRO",
+      "subtitle":"Source: FRED",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

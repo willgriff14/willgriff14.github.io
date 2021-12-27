@@ -9,8 +9,8 @@
   },  
 
   "title": {
-    "text": "New Covid-19 Cases By Area",
-    "subtitle":"Hounslow, Havant and Trafford New Daily Covid-19 Casese",
+    "text": "Total Vaccinations",
+    "subtitle":"Hounslow and Trafford Number of Double Vaccinated People",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor": "white",
@@ -19,7 +19,7 @@
   },
   
    "data": {
-    "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesByPublishDateRollingRate&format=csv",
+    "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=cumPeopleVaccinatedCompleteByVaccinationDate&format=csv",
     "format": {"type": "csv"}
   },
 
@@ -27,7 +27,7 @@
       
       {"filter": {
         "field": "areaName", 
-        "oneOf": ["Hounslow", "Havant", "Trafford"]}
+        "oneOf": ["Hounslow", "Trafford"]}
         }
 
 
@@ -49,7 +49,7 @@
     },
 
     "y": {
-      "field": "newCasesByPublishDateRollingRate",
+      "field": "cumPeopleVaccinatedCompleteByVaccinationDate",
       "type": "quantitative",
       "title": null,
       "axis": {"grid": false, "labelColor": "white"}

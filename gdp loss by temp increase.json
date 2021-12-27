@@ -46,7 +46,7 @@
     },
     "color": {
       "field": "Country",
-      "scale": {"scheme": "yellowgreenblue"},
+      "scale": {"scheme": "pastel1"},
       "legend": {"orient": "right", "titleColor": "white", "labelColor": "white"}
   },
   "config": {"view": {"stroke": "transparent"}, "axis": {"domainWidth": 1}, "background": "#3a3a3a00",

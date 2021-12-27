@@ -10,7 +10,7 @@
 
   "title": {
     "text": "BTC API",
-    "subtitle":"CoinAPI",
+    "subtitle":"Source: CoinAPI",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor": "white",
@@ -19,7 +19,7 @@
   },
   
    "data": {
-    "url": "https://rest.coinapi.io/v1/exchangerate/BTC/USD/history?period_id=4hrs&time_start=2017-01-01T00:00:00&time_end=2019-01-01T00:00:00&apikey=DEF9D194-3FDB-4FC0-8C4A-62318E512760"
+    "url": "https://rest.coinapi.io/v1/exchangerate/BTC/USD/history?period_id=4hrs&time_start=2018-01-01T00:00:00&time_end=2020-01-01T00:00:00&apikey=DEF9D194-3FDB-4FC0-8C4A-62318E512760"
   },
   
   

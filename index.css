@@ -14,12 +14,12 @@
 	"main main main"
 	"content1 content2 content3"
 	"content4 content5 content6"
-	"content7 content8 content9"
+	"content15 content16 content19"
 	"content10 content11 content12"
-	"content13 content14 content15"
-	"content16 content17 content18"
-	"content19 content20 content21"
-	"content22 content22 content23"
+	"content13 content14 content18"
+	"content17 content20 content21"
+	"content22 content7 content8"
+	"content9 content9 content23"
 	"footer footer footer";
 	grid-gap: 1rem;
 	font-family: "Inter", sans-serif;
@@ -251,14 +251,14 @@ footer{
 		"content1 content2"
 		"content3 content4"
 		"content5 content6"
-		"content7 content8"
-		"content9 content10"
+		"content15 content16"
+		"content19 content10"
 		"content11 content12"
 		"content13 content14"
-		"content15 content16"
-		"content17 content18"
-		"content19 content20"
-		"content21 content22"
+		"content18 content17"
+		"content20 content21"
+		"content22 content7"
+		"content8 content9"
 		"content23 content23"
 		"footer footer";
 
@@ -278,22 +278,22 @@ footer{
 		"content4"
 		"content5"
 		"content6"
-		"content7"
-		"content8"
-		"content9"
+		"content15"
+		"content16"
+		"content19"
 		"content10"
 		"content11"
 		"content12"
 		"content13"
 		"content14"
-		"content15"
-		"content16"
-		"content17"
 		"content18"
-		"content19"
+		"content17"
 		"content20"
 		"content21"
 		"content22"
+		"content7"
+		"content8"
+		"content9"
 		"content23"
 		"footer";
 
@@ -328,7 +328,7 @@ h3{
 
 
 h1{
-	color: #76aff8;
+	color: #05f7ff;
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding: 1vw;
@@ -342,12 +342,11 @@ h2{
 	text-indent: 0%;
 	font-size: 5vw;
 	-webkit-text-stroke: 0.2vw #1f1f1f;
-	text-shadow: 2px 2px 5px #18171769;
 }
 
 
-p{font-family: 'Poppins', sans-serif;
-color: white;
+p{font-family: 'Roboto', sans-serif;
+color: white; padding: 15pt; line-height: 15pt;
 }
 
 .navbar-links ul {
@@ -369,7 +368,7 @@ color: white;
 }
 
 .navbar-links li:hover {
-	background-color: rgb(109, 186, 250);
+	background-color: #00b7ff;
 
 }
 

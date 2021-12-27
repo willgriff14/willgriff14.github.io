@@ -13,10 +13,10 @@
     },
 
     "title": {
-    "text": "Major cryptocurrencies: 1 day price change",
+    "text": "Major cryptocurrencies 1 day price change (%)",
     "anchor": "start",
     "color": "white",
-    "subtitle":"1d change. Source: Nomics API",
+    "subtitle":"Source: Nomics API",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor":"white"

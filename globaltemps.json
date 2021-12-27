@@ -27,7 +27,7 @@
     "height": 300,
     "width": 310,
      
-    "mark": {"type": "line", "point": false, "color": "#05f7ff"},
+    "mark": {"type": "area", "point": false, "color": "#05f7ff"},
    
     "encoding": {
   

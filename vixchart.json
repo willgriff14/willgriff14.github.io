@@ -10,7 +10,7 @@
 
   "title": {
     "text": "VIX Index",
-    "subtitle":"VIX Index",
+    "subtitle":"Source: Yahoo Finance",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor": "white",
@@ -27,7 +27,7 @@
   "height": 300,
   "width": 310,
    
-  "mark": {"type": "line", "point": false, "color":"#05f7ff"},
+  "mark": {"type": "area", "point": false, "color":"#05f7ff"},
  
   "encoding": {
 
@@ -45,7 +45,7 @@
       "title": null,
       "axis": {"grid": false,
       "labelColor": "white"}
-    },
+    },"tooltip": {"field": "Close", "type": "quantitative"},
 
     "color": {
       "type": "nominal",

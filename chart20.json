@@ -9,8 +9,8 @@
   },
   
     "title": {
-      "text": "Regression",
-      "subtitle":"S&P and STOXX",
+      "text": "S&P 500 against EURO STOXX 50",
+      "subtitle":"Source: Yahoo Finance",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

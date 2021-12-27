@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  
+  "config":{
+    "background": "#3a3a3a00",
+    "view": {
+      "stroke": "transparent"
+  }
+  },
+
+  "height": 300,
+  "width": 310,
+  
+    "title": {
+      "text": "ONS and Statista Data",
+      "subtitle":"20% of UK jobs are not green",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "subtitleColor": "white",
+      "anchor": "start",
+      "color": "white"
+    },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/cool.csv"
+  },
+
+
+  "repeat": {
+    "layer": ["VIX", "MA", "Trail MA"]
+  },
+  "spec": {
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "axis": {"labelColor":"white", "titleColor":"white"}
+      },
+      "y": {
+        "aggregate": "mean",
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "scale": {"domain": [10,40]},
+        "axis": {"labelColor":"white", "titleColor":"white"},
+        "title": "Mean of US and Worldwide Gross"
+      },
+      "color": {
+        "datum": {"repeat": "layer"},
+        "type": "nominal",
+        "scale":{"scheme":"pastel1"}
+      }
+    }
+  }
+}

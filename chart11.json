@@ -10,7 +10,7 @@
   
     "title": {
       "text": "Market Yield on US 10-Y Treasuries Index",
-      "subtitle":"Bond Stuff",
+      "subtitle":"Source: FRED",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",

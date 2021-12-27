@@ -10,7 +10,7 @@
   
     "title": {
       "text": "VIX Index",
-      "subtitle":"VIX Index",
+      "subtitle":"",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",
