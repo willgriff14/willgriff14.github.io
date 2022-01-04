@@ -29,6 +29,9 @@
    
   "mark": {"type": "area", "point": false, "color":"#05f7ff"},
  
+ "layer":[
+   {
+
   "encoding": {
 
     "x": {
@@ -50,6 +53,32 @@
     "color": {
       "type": "nominal",
       "scale": {"scheme": "set1"}
-    }
+    }},
+
+    "layer": [
+        {"mark": {"type": "area", "point": false, "color":"#05f7ff"}},
+        {
+          "params": [{
+            "name": "label",
+            "select": {
+              "type": "point",
+              "encodings": ["x"],
+              "nearest": true,
+              "on": "mouseover"
+            }
+          }],
+          "mark": {"type":"point","color":"white"},
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
 }
-}
+ ]}

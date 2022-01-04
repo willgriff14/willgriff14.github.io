@@ -1,0 +1,59 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }, "legend": {"labelColor":"white"}
+    },
+  
+    "height": 300,
+    "width": 310,
+    
+      "title": {
+        "text": "ONS and Statista Data",
+        "subtitle":"20% of UK jobs are not green",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/sandp%20aligned.csv"
+    },
+  
+  
+    "repeat": {
+      "layer": ["MA Difference", "TMA Difference"]
+    },
+
+    
+
+    "spec": {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Hurricane Date",
+          "type": "ordinal",
+          "axis": {"labelColor":"white", "titleColor":"white", "title": "Date of Hurricane Closest Approach", "labelOverlap":"parity"}
+        },
+        "y": {
+          "aggregate": "mean",
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "axis": {"labelColor":"white", "titleColor":"white", "gridDash":[5], "gridColor":"darkgrey"},
+          "title": "VIX Index"
+        },
+        "xOffset": {"datum": {"repeat": "layer"}},
+        "color": {
+          "datum": {"repeat": "layer"},
+          "type": "nominal",
+          "scale":{"scheme": ["#05f7ff", "white", "black"]}
+        }
+      }
+    }
+  }

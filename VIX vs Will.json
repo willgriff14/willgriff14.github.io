@@ -1,0 +1,78 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/Wills%20Measure%20Test.csv"
+    },
+  
+  
+      "config":{
+        "background": "#3a3a3a00",
+        "view": {
+          "stroke": "transparent"
+      }
+      },
+      
+        "title": {
+          "text": "Wills Volatility Measure for S&P500 against VIX",
+          "subtitle":"Source: Yahoo Finance",
+          "subtitleFontStyle":"italic",
+          "subtitleFontSize":10,
+          "subtitleColor": "white",
+          "anchor": "start",
+          "color": "white"
+        },
+        
+                
+        "height": 300,
+        "width": 310,
+
+
+
+    "layer": [
+      {  "params": [{
+    "name": "grid",
+    "select": "interval",
+    "bind": "scales"
+  }],
+        "mark": {
+          "type": "point",
+          "filled": false,
+          "color": "#05f7ff"
+        },
+        "encoding": {
+          "x": {
+            "field": "Close",
+            "type": "quantitative",
+            "axis":{"title": "VIX Index", "labelColor":"white","titleColor":"white", "grid": false}
+          },
+          "y": {
+            "field": "Wills Measure Test",
+            "type": "quantitative",
+            "axis":{"title": "Wills Volatility Measure", "labelColor":"white","titleColor":"white", "grid": false}
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "line",
+          "color": "white"
+        },
+        "transform": [
+          {
+            "loess": "Wills Measure Test",
+            "on": "Close"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "Close",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "Wills Measure Test",
+            "type": "quantitative"
+          }
+        }
+      }
+    ]
+  }

@@ -1,18 +1,19 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-
+  
   "config":{
     "background": "#3a3a3a00",
     "view": {
-      "stroke": "transparent"},
-      "legend": {"disable": true}
+      "stroke": "transparent"
+  }, "legend": {"labelColor":"white", "orient": "top-left"}
   },
 
+  "height": 300,
   "width": 310,
-
+  
     "title": {
-      "text": "US Climate Disasters Matrix",
+      "text": "US Extreme Weather Events Count by Year",
       "subtitle":"Source: ",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -21,51 +22,35 @@
       "color": "white"
     },
 
-    "repeat": {
-  
-      "row": ["All Disasters Cost", "All Disasters Count"],
-      "column": ["Year"]
-    },
-    "spec": {
-      "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/time-series-US-1980-2021.csv"},
-      "mark": {"type": "area", "point": true, "stroke":"#05f7ff", "fill":"yellow"},
-      "params": [
-        {
-          "name": "brush",
-          "select": {
-            "type": "interval",
-            "resolve": "union",
-            "on": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-            "translate": "[mousedown[event.shiftKey], window:mouseup] > window:mousemove!",
-            "zoom": "wheel![event.shiftKey]"
-          }
-        },
-        {
-          "name": "grid",
-          "select": {
-            "type": "interval",
-            "resolve": "global",
-            "translate": "[mousedown[!event.shiftKey], window:mouseup] > window:mousemove!",
-            "zoom": "wheel![!event.shiftKey]"
-          },
-          "bind": "scales"
-        }
-      ],
-      "encoding": {
-        "x": {"field": {"repeat": "column"}, "type": "temporal", "axis":{"labelColor": "white", "titleColor":"white"}},
-        "y": {
-          "field": {"repeat": "row"},
-          "type": "quantitative",
-          "axis": {"labelColor": "white", "titleColor": "white"}
-        },
-        "color": {
-          "condition": {
-            "param": "brush",
-            "field": "Origin",
-            "type": "nominal"
-          },
-          "value": "grey"
-        }
+  "data": {
+    "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/time-series-US-1980-2021.csv"
+  },
+
+
+  "repeat": {
+    "layer": [ "Severe Storm Count", "Wildfire Count", "Tropical Cyclone Count","Flooding Count","Drought Count"]
+  },
+  "spec": {
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "axis": {"labelColor":"white", "titleColor":"white", "title": false, "labelOverlap":"parity"}
+      },
+      "y": {
+        "aggregate": "mean",
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "axis": {"labelColor":"white", "titleColor":"white", "grid": false},
+        "title": false
+      },
+      "xOffset": {"datum": {"repeat": "layer"}},
+      "color": {
+        "datum": {"repeat": "layer"},
+        "type": "nominal",
+        "scale":{"scheme": ["#05f7ff", "white", "black"]}
       }
     }
   }
+}

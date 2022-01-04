@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }
+    },
+    
+      "title": {
+        "text": "Disasters Count vs Mean Global Temp Anomoly",
+        "subtitle":"Source: Yahoo Finance",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+      
+  
+    "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/temp%20anomolies%20and%20weather%20events.csv"},
+    
+        
+      "height": 300,
+      "width": 310,
+       
+    
+    "layer": [
+      {
+        "mark": {"type": "circle", "filled": false, "color": "#05f7ff"},
+        "encoding": {
+          "x": {"field": "temp anomolies", "type": "quantitative","scale":{"domain":[0,1.1]}},
+          "y": {"field": "All Disasters Count", "type": "quantitative"}
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "white"},
+        "transform": [
+          {"regression": "All Disasters Count", "on": "temp anomolies"}
+        ],
+        "encoding": {
+          "x": {"field": "temp anomolies", "type": "quantitative",
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomoly", "grid": false}},
+          "y": {"field": "All Disasters Count", "type": "quantitative",
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "US Disasters Count", "grid": false}}
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "All Disasters Count",
+            "on": "temp anomolies",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "white",
+          "x": "width",
+          "align": "right",
+          "y": 90
+        },
+        "encoding": {"text": {"type": "nominal", "field": "R2"}}
+      }
+    ]
+  }

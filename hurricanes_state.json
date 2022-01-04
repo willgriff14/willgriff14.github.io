@@ -27,7 +27,7 @@
   "encoding": {
     "x": {
       "field": "Year", "type": "temporal"
-    , "axis": {"labelColor": "white", "title":null}},
+    , "axis": {"labelColor": "white", "title":null, "gridDash": [5], "gridColor": "darkgrey"}},
     "y": {
       "field": "State Name", "axis": {"labelColor": "white", "title":null}
     },
