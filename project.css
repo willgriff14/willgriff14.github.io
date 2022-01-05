@@ -270,10 +270,11 @@ h3{
 
 
 h1{
-	color: #05f7ff;
+	color:rgb(138, 241, 255);
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 	padding: 1vw;
+	font-weight: lighter;
 
 }
 
@@ -331,7 +332,7 @@ text-align: center;
 }
 
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:1200px){
 	.container{
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
@@ -355,7 +356,7 @@ text-align: center;
 	}
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 900px){
 	.container{
 		grid-template-columns: 1fr;
 		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
