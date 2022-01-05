@@ -9,8 +9,8 @@
     },
     
       "title": {
-        "text": "Disasters Count vs Mean Global Temp Anomoly",
-        "subtitle":"Source: Yahoo Finance",
+        "text": "Extreme Weather Events against Global Temp Anomoly",
+        "subtitle":"US extreme weather events against global temperature anomolies",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "subtitleColor": "white",
@@ -28,7 +28,7 @@
     
     "layer": [
       {
-        "mark": {"type": "circle", "filled": false, "color": "#05f7ff"},
+        "mark": {"type": "circle", "filled": false, "color": "#05f7ff", "tooltip": true},
         "encoding": {
           "x": {"field": "temp anomolies", "type": "quantitative","scale":{"domain":[0,1.1]}},
           "y": {"field": "All Disasters Count", "type": "quantitative"}
@@ -41,9 +41,9 @@
         ],
         "encoding": {
           "x": {"field": "temp anomolies", "type": "quantitative",
-          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomoly", "grid": false}},
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomoly (degrees celcius)", "grid": false}},
           "y": {"field": "All Disasters Count", "type": "quantitative",
-          "axis": {"labelColor": "white", "titleColor": "white", "title": "US Disasters Count", "grid": false}}
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "Extreme Weather Events Count", "grid": false}}
         }
       },
       {

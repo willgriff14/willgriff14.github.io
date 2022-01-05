@@ -7,15 +7,19 @@
       "background": "#3a3a3a00",
       "view": {
         "stroke": "transparent"
-    }, "legend": {"labelColor":"white", "titleColor":"white"}
+    }, 
+    "legend": {
+      "labelColor":"white", 
+      "titleColor":"white", 
+      "orient": "bottom"}
     },
   
     "height": 300,
     "width": 310,
     
       "title": {
-        "text": "SandP Volatility During Hurricane Hit Dates",
-        "subtitle":"20% of UK jobs are not green",
+        "text": "Index volatility deviation from mean",
+        "subtitle":"Select index",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "subtitleColor": "white",
@@ -26,7 +30,8 @@
   "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/indicies.csv"},
 
   "layer": [{
-    "mark": {"type": "point", "opacity": 1, "color": "#05f7ff"},
+    "mark": {"type": "point", "opacity": 1, "color": "#05f7ff", "tooltip": true},
+  
 
 "selection": {
   "Symbol": {
@@ -53,7 +58,7 @@
   {"filter": {"selection": "Symbol"}}],
 
     "encoding": {
-      "x": {"timeUnit":"year", "field": "Hurricane Date", "type": "nominal", "axis":{"labelColor":"white", "titleColor": "white"}},
+      "x": {"timeUnit":"yearmonthdate", "field": "Hurricane Date", "type": "nominal", "axis":{"labelColor":"white", "titleColor": "white"}},
       "y": {"field": "MA Difference", "type": "quantitative", "axis":{"labelColor":"white", "titleColor":"white","gridDash":[5], "gridColor":"darkgrey"}},
     "size": {"field": "Hurricane Category"}
     }
@@ -68,7 +73,7 @@
   {"filter": {"selection": "Symbol"}}],
 
     "encoding": {
-      "x": {"timeUnit":"year", "field": "Hurricane Date"},
+      "x": {"timeUnit":"year", "field": "Hurricane Date", "axis":{"title":"Hurricane Date of Closest Approach"}},
       "y": {"aggregate": "mean", "field": "MA Difference"}
     }
   }, 

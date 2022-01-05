@@ -23,7 +23,7 @@
 
   "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/hurricanes_scraped.csv"},
   
-  "mark": {"type": "circle", "color":"#05f7ff"},
+  "mark": {"type": "circle", "color":"#05f7ff", "tooltip":true},
   "encoding": {
     "x": {
       "field": "Year", "type": "temporal"

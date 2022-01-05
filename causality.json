@@ -14,8 +14,8 @@
     "width": 310,
     
       "title": {
-        "text": "SandP Volatility During Hurricane Hit Dates",
-        "subtitle":"20% of UK jobs are not green",
+        "text": "Index Volatility Distributions",
+        "subtitle":"Select index",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "subtitleColor": "white",
@@ -26,7 +26,7 @@
   "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/US%20indicies.csv"},
 
   "layer": [{
-    "mark": {"type": "bar", "opacity": 0.6, "color": "white"},
+    "mark": {"type": "bar", "opacity": 0.6, "color": "white", "tooltip":true},
 
 "selection": {
   "Symbol": {
@@ -57,7 +57,7 @@
   },
   
   {
-    "mark": {"type": "bar", "opacity": 0.5, "color": "#05f7ff"},
+    "mark": {"type": "bar", "opacity": 0.5, "color": "#05f7ff", "tooltip":true},
 
 
 "transform": [
@@ -79,8 +79,9 @@
   "mark": "rule",
   "encoding": {
     "x": {"aggregate": "mean", "field": "Mean volatility on this day other years"},
-    "color": {"value": "#05f7ff"},
+    "color": {"value": "black"},
     "size": {"value": 3}
+    
   }
 }
 
