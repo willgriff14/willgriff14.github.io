@@ -13,8 +13,8 @@
   "width": 310,
   
     "title": {
-      "text": "US Extreme Weather Events Count by Year",
-      "subtitle":"Source: ",
+      "text": "US Extreme Weather Events",
+      "subtitle":"United States annual number of extreme weather events by category",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",
@@ -31,7 +31,7 @@
     "layer": [ "Severe Storm Count", "Wildfire Count", "Tropical Cyclone Count","Flooding Count","Drought Count"]
   },
   "spec": {
-    "mark": "area",
+    "mark": {"type": "area", "tooltip": true},
     "encoding": {
       "x": {
         "field": "Year",
