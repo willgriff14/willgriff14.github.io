@@ -241,65 +241,6 @@ footer{
 	padding-top: var(--main-padding);
 }
 
-@media only screen and (max-width:1200px){
-	.container{
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
-		grid-template-areas:
-		"nav nav"
-		"main main"
-		"content1 content2"
-		"content3 content4"
-		"content5 content6"
-		"content15 content16"
-		"content19 content10"
-		"content11 content12"
-		"content13 content14"
-		"content18 content17"
-		"content20 content23"
-		"content21 content2"
-		"content8 content9"
-		"content7 content7"
-		"footer footer";
-
-	}
-}
-
-@media only screen and (max-width:900px){
-	.container{
-		grid-template-columns: 1fr;
-		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
-		grid-template-areas:
-		"nav"
-		"main"
-		"content1"
-		"content2"
-		"content3"
-		"content4"
-		"content5"
-		"content6"
-		"content15"
-		"content16"
-		"content19"
-		"content10"
-		"content11"
-		"content12"
-		"content13"
-		"content14"
-		"content18"
-		"content17"
-		"content20"
-		"content23"
-		"content21"
-		"content22"
-		"content8"
-		"content9"
-		"content7"
-		"footer";
-
-	}
-}
-
 /* styling my button */
 
 .white-mode {
@@ -382,4 +323,63 @@ color: white; padding: 15pt; line-height: 15pt;
     margin: auto;
 	margin-bottom: 10px;
 
+}
+
+@media only screen and (max-width:1200px){
+	.container{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
+		grid-template-areas:
+		"nav nav"
+		"main main"
+		"content1 content2"
+		"content3 content4"
+		"content5 content6"
+		"content15 content16"
+		"content19 content10"
+		"content11 content12"
+		"content13 content14"
+		"content18 content17"
+		"content20 content23"
+		"content21 content2"
+		"content8 content9"
+		"content7 content7"
+		"footer footer";
+
+	}
+}
+
+@media only screen and (max-width:900px){
+	.container{
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1fr;
+		grid-template-areas:
+		"nav"
+		"main"
+		"content1"
+		"content2"
+		"content3"
+		"content4"
+		"content5"
+		"content6"
+		"content15"
+		"content16"
+		"content19"
+		"content10"
+		"content11"
+		"content12"
+		"content13"
+		"content14"
+		"content18"
+		"content17"
+		"content20"
+		"content23"
+		"content21"
+		"content22"
+		"content8"
+		"content9"
+		"content7"
+		"footer";
+
+	}
 }

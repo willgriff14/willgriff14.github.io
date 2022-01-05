@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
   "title": {
-    "text": "Global Monthly Mean Temperature",
-    "subtitle":"Global monthly mean temp change",
+    "text": "Mean Global Monthly Temperature Change",
+    "subtitle":"Difference from 1901-2000 average",
     "subtitleFontStyle":"italic",
     "subtitleFontSize":10,
     "subtitleColor": "white",
@@ -44,8 +44,8 @@
     "y": {
       "field": "Mean",
       "type": "quantitative",
-      "title": null,
-      "axis": {"grid": false, "labelColor": "white"}
+      "title": "Degrees Celcius",
+      "axis": {"grid": false, "labelColor": "white", "titleColor":"white"}
     },"tooltip":{"field": "Mean", "type": "quantitative"}},
 
 "layer": [
