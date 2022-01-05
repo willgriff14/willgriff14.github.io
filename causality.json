@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+    
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }, "legend": {"labelColor":"white", "titleColor":"white"}
+    },
+  
+    "height": 300,
+    "width": 310,
+    
+      "title": {
+        "text": "SandP Volatility During Hurricane Hit Dates",
+        "subtitle":"20% of UK jobs are not green",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+
+  "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/US%20indicies.csv"},
+
+  "layer": [{
+    "mark": {"type": "bar", "opacity": 0.6, "color": "white"},
+
+"selection": {
+  "Symbol": {
+    "type": "single",
+    "fields": ["Symbol"],
+    "bind": {
+      "input": "select",
+      "options": [
+        "S&P 500",
+        "Dow Jones 30",
+        "Nasdaq",
+        "Russel 2000",
+        "Russel 3000"
+      ],
+      "name": "Symbol"
+      
+    }
+  }
+},
+"transform": [
+  
+  {"filter": {"selection": "Symbol"}}],
+
+    "encoding": {
+      "x": {"field": "Wills Volatility Measure", "bin" : true},
+      "y": {"aggregate":"count"}
+    }
+  },
+  
+  {
+    "mark": {"type": "bar", "opacity": 0.5, "color": "#05f7ff"},
+
+
+"transform": [
+  
+  {"filter": {"selection": "Symbol"}}],
+
+    "encoding": {
+      "x": {"field": "Mean volatility on this day other years", "bin": true, "axis":{"title": "binned", "labelColor":"white", "titleColor": "white"}},
+      "y": {"aggregate":"count", "axis":{"titleColor":"white", "labelColor":"white", "gridDash":[5], "gridColor":"darkgrey"}}
+    }
+  },{
+  "mark": "rule",
+  "encoding": {
+    "x": {"aggregate": "mean", "field": "Wills Volatility Measure"},
+    "color": {"value": "white"},
+    "size": {"value": 3}
+  }
+},{
+  "mark": "rule",
+  "encoding": {
+    "x": {"aggregate": "mean", "field": "Mean volatility on this day other years"},
+    "color": {"value": "#05f7ff"},
+    "size": {"value": 3}
+  }
+}
+
+
+
+
+  ]
+}

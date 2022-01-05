@@ -63,9 +63,10 @@
 
 <!--Chart 2 -->
 <div id="content2">
-  <p> 
+  <p> 2
+    <span style = "text-transform: uppercase;">
       I</span> scraped hurricane data using PANDAS in python
-      to investigate short term effects on volatility. SEE code.
+      to investigate short term effects on volatility. <a style = " white-space:nowrap; color: white;" href="Scraping Hurricane Data.ipynb">view code</a>
   </p>
   <div class="chart" id="chart2">
       <script>
@@ -79,10 +80,8 @@
 
   <!--Chart 3 -->
 <div id="content3">
-  <p>I created a monthly moving average filter using python to align
-    vix data and the hurricanes data. I also created a 14 point trailing
-    moving average to account for weather forecasting expectations of
-    hurricanes. The data shows that 13 out 19 times, VIX is higher than 
+  <p> 3 <span style = "text-transform: uppercase;">
+    d</span>ata shows that 13 out 19 times, VIX is higher than 
     the monthly MA and the trailing MA of volatility.
   </p>
 
@@ -188,12 +187,12 @@ weather data for analysis.</p>
   <p>
     <span style="color: black;">
     <span style = "text-transform: uppercase;">
-    I</span> developed a machine learning model with SKLearn in 
-    python to regress climate events on volatility. <span style = "text-transform: uppercase;">
+    I</span> developed a machine learning model with <span style = "text-transform: uppercase;">
+      SKL</span>earn to regress climate events on volatility. <span style = "text-transform: uppercase;">
       T</span>his showed there to be no correlation between volatility and 
-    climate change. SEE CODE.</span>
+    climate change. <a style = " white-space:nowrap; color: rgb(0, 0, 0);" href="ML Regression.ipynb">view code</a></span>
   </p>
-  <img src="matrix.png" alt="my correlation matrix" />
+  <img src="Volatility.png" alt="regression" />
   <div class="chart" id="chart9">
       <script>
         var myChart9 = "";
@@ -211,11 +210,12 @@ weather data for analysis.</p>
       I</span> produced a chart
      with a <span style = "text-transform: uppercase;">
       L</span>oess regression of Wills Volatility against VIX to show correlation, and thus suitability
-      (0.806 Pearsons Correlation Coefficient). SEE CODE.
+      (0.806 Pearsons Correlation Coefficient). <a style = " white-space:nowrap; color: white;" href="Standardised Daily Range Algorithm.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart10">
       <script>
+
         var myChart10 = "VIX vs Will.json";
         vegaEmbed('#chart10', myChart10);
       </script>
@@ -224,12 +224,15 @@ weather data for analysis.</p>
 
 <!--Chart 11 -->
 <div id="content11">
-  <p> Aligning market volatility time series with the dates that hurricanes
-    hit was challenging. I decided to programme an algorithm that will automate
-    the entire process for me, so by typing in the yahoo finance ticker of the 
-    desired stock/index, it returns an aligned dataframe of hurricane category, stock volatility, 21 
+  <p> 11: <span style = "text-transform: uppercase;">
+    A</span>ligning market volatility time series with the dates that hurricanes
+    hit was challenging. <span style = "text-transform: uppercase;">
+      I</span> developed a piece of software to automate
+    this process for me. <span style = "text-transform: uppercase;">
+      e</span>ntering a yahoo finance ticker 
+     returns a dataframe of stock volatility, 21 
     point moving average volatility, 2 week trailing 21 point moving average of 
-    volatility (to account for weather forecasting). see code.
+    volatility (to account for weather forecasting) aligned to the scraped hurricane data. <a style = " white-space:nowrap; color: white;" href="MA calc and data align.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart11">
@@ -242,11 +245,14 @@ weather data for analysis.</p>
 
   <!--Chart 12 -->
   <div id="content12">
-    <p>Since no correlation was found over long-term 
-      time frame. I will investigate effects on a short
+    <p> <span style = "text-transform: uppercase;">
+      S</span>ince no correlation was found over long-term 
+      time frame. <span style = "text-transform: uppercase;">
+        I</span> will investigate effects on a short
       time frame around when severe storms hit since severe
       storms and tropical cyclones appear to have the largest
-      correlation with global mean temp anomolies I will 
+      correlation with global mean temp anomolies <span style = "text-transform: uppercase;">
+        I</span> will 
       focus on looking at hurricanes.
     </p>
   
@@ -260,7 +266,7 @@ weather data for analysis.</p>
 
     <!--Chart 13 -->
     <div id="content13">
-      <p>
+      <p>13
       </p>
     
       <div class="chart" id="chart13">
@@ -274,12 +280,13 @@ weather data for analysis.</p>
 
     <!--Chart 14 -->
      <div id="content14">
-       <p>
+       <p> i will try and establish causality between differences
+         in us indices volatility and hurricane.
        </p>
         
        <div class="chart" id="chart14">
            <script>
-            var myChart14 = "FTSE MA.json";
+            var myChart14 = "causality.json";
             vegaEmbed('#chart14', myChart14);
           </script>
       </div>
@@ -287,17 +294,19 @@ weather data for analysis.</p>
 
     <!--Chart 15 -->
     <div id="content15">
-      <p>This is a chart of SandP difference with the 21 point moving 
-        average volatility, and the 14 day trailing MA. The area fill
-        shows the change in volatility from the monthly moving average
-        on the closest date of a hurricane approach. The data shows that
-        volatility tends to be above the 30 day moving average on this 
-        date.
+      <p> From these volatility deviations from the mean
+        on dates of hurricane closest approaches, we can
+        see US indicies tend to show volatility above its 
+        moving average. To determine causality I will compare
+        volatility of US indices on the date a hurricane hits 
+        to the average volatility on that same day for every 
+        year it didn't it on that day. I developed a peice of
+        software to extract and align this data for me. <a style = " white-space:nowrap; color: white;" href="same day diff year.ipynb">view code</a>
       </p>
        
       <div class="chart" id="chart15">
           <script>
-           var myChart15 = "sandp vol 2.json";
+           var myChart15 = ".json";
            vegaEmbed('#chart15', myChart15);
          </script>
      </div>
@@ -306,12 +315,34 @@ weather data for analysis.</p>
     <!--Chart 16 -->
     <div id="content16">
       <p>
+16 The area shows running moving average of the differences 
+in index volatilty from its monthly moving average on 
+dates of hurricanes closest approach. Select index below.
+      </p>
+
+      <div class="chart" id="chart16">
+
+          <script>
+
+           var myChart16 = "indices comparison.json";
+
+           vegaEmbed('#chart16', myChart16);
+
+         </script>
+     </div>
+
+
+    </div>
+
+    <!--Chart 17 -->
+    <div id="content17">
+      <p>
       </p>
        
-      <div class="chart" id="chart16">
+      <div class="chart" id="chart17">
           <script>
-           var myChart16 = "drop test.json";
-           vegaEmbed('#chart16', myChart16);
+           var myChart17 = "";
+           vegaEmbed('#chart17', myChart17);
          </script>
      </div>
     </div>

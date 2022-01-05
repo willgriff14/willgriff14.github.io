@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+
+    
+    "config":{
+      "background": "#3a3a3a00",
+      "view": {
+        "stroke": "transparent"
+    }, "legend": {"labelColor":"white", "titleColor":"white"}
+    },
+  
+    "height": 300,
+    "width": 310,
+    
+      "title": {
+        "text": "SandP Volatility During Hurricane Hit Dates",
+        "subtitle":"20% of UK jobs are not green",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "subtitleColor": "white",
+        "anchor": "start",
+        "color": "white"
+      },
+
+  "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/indicies.csv"},
+
+  "layer": [{
+    "mark": {"type": "point", "opacity": 1, "color": "#05f7ff"},
+
+"selection": {
+  "Symbol": {
+    "type": "single",
+    "fields": ["Symbol"],
+    "bind": {
+      "input": "select",
+      "options": [
+        "S&P 500",
+        "Dow Jones 30",
+        "Nasdaq",
+        "Russel 2000",
+        "FTSE 100",
+        "DAX",
+        "CAC 40"
+      ],
+      "name": "Symbol"
+      
+    }
+  }
+},
+"transform": [
+  
+  {"filter": {"selection": "Symbol"}}],
+
+    "encoding": {
+      "x": {"timeUnit":"year", "field": "Hurricane Date", "type": "nominal", "axis":{"labelColor":"white", "titleColor": "white"}},
+      "y": {"field": "MA Difference", "type": "quantitative", "axis":{"labelColor":"white", "titleColor":"white","gridDash":[5], "gridColor":"darkgrey"}},
+    "size": {"field": "Hurricane Category"}
+    }
+  },
+  
+  {
+    "mark": {"type": "area", "opacity": 0.5, "color": "white"},
+
+
+"transform": [
+  
+  {"filter": {"selection": "Symbol"}}],
+
+    "encoding": {
+      "x": {"timeUnit":"year", "field": "Hurricane Date"},
+      "y": {"aggregate": "mean", "field": "MA Difference"}
+    }
+  }, 
+  
+  {
+    "mark":{"type": "line", "color":"white"},
+    "transform": [
+  
+  {"filter": {"selection": "Symbol"}}],
+
+    "encoding": {
+      "x": {"field":"Hurricane Date", "type": "nominal"},
+      "y": {"field":"TMA Difference", "type":"quantitative", "axis":{"labels": false, "titleColor":"white", "labelColor":"white"}}}
+
+
+  }]
+}
