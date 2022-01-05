@@ -271,20 +271,24 @@ h3{
 
 h1{
 	color:rgb(138, 241, 255);
-	font-family: 'Poppins', sans-serif;
+	font-family: sans-serif;
 	text-align: left;
 	padding: 1vw;
 	font-weight: lighter;
+	text-transform: capitalize;
+	letter-spacing: 1px;
 
 }
 
 h2{
 	color: rgb(0, 0, 0);
-	font-family: 'Poppins', sans-serif ;
+	font-family: sans-serif ;
 	text-align: centre;
+	font-weight: lighter;
 	text-indent: 0%;
 	font-size: 5vw;
-	-webkit-text-stroke: 0.2vw #1f1f1f;
+	text-transform: capitalize;
+	
 
 }
 
