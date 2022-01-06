@@ -71,7 +71,7 @@
   <p> 2
     <span style = "text-transform: uppercase;">
       I</span> scraped hurricane data using PANDAS in python
-      to investigate short term effects on volatility. <a style = " white-space:nowrap; color: white;" href="Scraping Hurricane Data.ipynb">view code</a>
+      to investigate short term effects on volatility. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Scraping Hurricane Data.ipynb">view code</a>
   </p>
   <div class="chart" id="chart2">
       <script>
@@ -161,7 +161,14 @@ weather data for analysis.</p>
   <p>
     7 I wrote a function using python and pandas to perform a
     2 sample t-test for the distributions above. The test
-    statistics showed that xxxx . <a style = " white-space:nowrap; color: white;" href="2 sample t tests.ipynb">view code</a>
+    statistics showed that volatility deviations 
+    were signification to a 0.05 siginficance level 
+    for the sandp 500 statistic 2.927 and nasdaq stastic 4.124
+    and thus reject null hypothese. In contrast, Dow Jones 30,
+    Russel 2000, and Russel 3000 produced insignificant test 
+    results at a 0.05 significance level and so we fail to 
+    reject the null hypothese for these indicies.
+     . <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="2 sample t tests.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart7">
@@ -216,7 +223,7 @@ weather data for analysis.</p>
       I</span> produced a chart
      with a <span style = "text-transform: uppercase;">
       L</span>oess regression of Wills Volatility against VIX to show correlation, and thus suitability
-      (0.806 Pearsons Correlation Coefficient). <a style = " white-space:nowrap; color: white;" href="Standardised Daily Range Algorithm.ipynb">view code</a>
+      (0.806 Pearsons Correlation Coefficient). <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Standardised Daily Range Algorithm.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart10">
@@ -238,7 +245,7 @@ weather data for analysis.</p>
       e</span>ntering a yahoo finance ticker 
      returns a dataframe of stock volatility, 21 
     point moving average volatility, 2 week trailing 21 point moving average of 
-    volatility (to account for weather forecasting) aligned to the scraped hurricane data. <a style = " white-space:nowrap; color: white;" href="MA calc and data align.ipynb">view code</a>
+    volatility (to account for weather forecasting) aligned to the scraped hurricane data. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="MA calc and data align.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart11">
@@ -251,7 +258,7 @@ weather data for analysis.</p>
 
   <!--Chart 12 -->
   <div id="content12">
-    <p> 12 <span style = "text-transform: uppercase;">
+    <p> 12 Short-Term Effects? <span style = "text-transform: uppercase;">
       S</span>ince no correlation was found over long-term 
       time frame. <span style = "text-transform: uppercase;">
         I</span> will investigate effects on a short
@@ -307,7 +314,7 @@ weather data for analysis.</p>
         volatility of US indices on the date a hurricane hits 
         to the average volatility on that same day for every 
         year it didn't it on that day. I developed a peice of
-        software to extract and align this data for me. <a style = " white-space:nowrap; color: white;" href="same day diff year.ipynb">view code</a>
+        software to extract and align this data for me. <a style = " white-space:nowrap; color:rgb(138, 241, 255);" href="same day diff year.ipynb">view code</a>
       </p>
        
       <div class="chart" id="chart15">
@@ -340,15 +347,89 @@ dates of hurricanes closest approach. Select index below.
 
     </div>
 
-    <!--Chart 17 -->
-    <div id="content17">
-      <p> 17 WRITE UP, stimulate further work.
+    <!--Chart 18 -->
+    <div id="content18">
+      <h4>18 What about short term effects?</h4>
+      
+       
+      <div class="chart" id="chart18">
+          <script>
+           var myChart18 = "";
+           vegaEmbed('#chart18', myChart18);
+         </script>
+     </div>
+    </div>
+
+    <!--Chart 19 -->
+    <div id="content19">
+      <h4>19 Are these deviations significant??</h4> 
+  
+       
+      <div class="chart" id="chart19">
+          <script>
+           var myChart19 = "";
+           vegaEmbed('#chart19', myChart19);
+         </script>
+     </div>
+    </div>
+
+    <!--Chart 20 -->
+    <div id="content20">
+      <h4>20 How do these compare to other indicies?</h4> 
+       
+      <div class="chart" id="chart20">
+          <script>
+           var myChart20 = "";
+           vegaEmbed('#chart20', myChart20);
+         </script>
+     </div>
+    </div>
+
+    <!--Chart 21 -->
+    <div id="content21">
+      <p> 21 conclusion: there is a strong correlation between the annual number of
+        severse storms and tropical cyclones within the US and climate change.
+        There was no long-term causal effects found. However,
+        Looking at short term impacts of hurricanes, we found short term increases
+        in volatility on the days of hurricanes closest approach. 
+        There effects were established to be causal for SandP and Nasdaq,
+        however not causual for dow jones, russel 2000 and russel 3000.
+        Low cap stock and high cap stocks both showed infsignificant results.
+        As climate change continues we could see more frequent short term
+        periods of increased volatilty. <br><br>
+        
+        Further investgation is needed to establish why only two indicies 
+        showed significant results. This could be to do with sector or industry
+        compromisation of indexes. For example, large insurance companies may be 
+        negatively effected. Furthermore this project solely focuses on the impacts
+        to the us stock market. Other stock markets from around the world 
       </p>
        
-      <div class="chart" id="chart17">
+      <div class="chart" id="chart21">
+          <script>
+           var myChart21 = "";
+           vegaEmbed('#chart21', myChart21);
+         </script>
+     </div>
+    </div>
+
+    <!--Chart 22 -->
+    <div id="content22">
+      <p> https://www.ncdc.noaa.gov/billions/events <br><br>
+
+        https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/11/1980-2021 <br><br>
+
+        https://www.mapsofworld.com/hurricane/dates.html <br><br>
+
+        https://uk.finance.yahoo.com/world-indices/
+
+
+      </p>
+       
+      <div class="chart" id="chart22">
           <script>
            var myChart17 = "";
-           vegaEmbed('#chart17', myChart17);
+           vegaEmbed('#chart22', myChart22);
          </script>
      </div>
     </div>
