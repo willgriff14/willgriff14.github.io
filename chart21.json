@@ -5,7 +5,7 @@
     "background": "#3a3a3a00",
     "view": {
       "stroke": "transparent"
-  }, "legend": {"orient": "right"}
+  }, "legend": {"orient": "bottom-right"}
   },
 
 
@@ -29,8 +29,8 @@
   "layer": [
     {
       "encoding": {
-        "x": {"field": "Date", "type": "temporal", "axis": {"titleColor":"white", "labelColor":"white"}},
-        "y": {"field": "Close", "type": "quantitative", "axis": {"titleColor":"white", "labelColor":"white"}},
+        "x": {"field": "Date", "type": "temporal", "axis": {"titleColor":"white", "labelColor":"white", "grid": false}},
+        "y": {"field": "Close", "type": "quantitative", "axis": {"titleColor":"white", "labelColor":"white", "grid": false}},
         "color": {"field": "Name", "type": "nominal"}
       },
       "layer": [
@@ -88,7 +88,7 @@
             {
               "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
               "encoding": {
-                "color": {"scale": {"scheme":"pastel1"},"legend": {"titleColor":"white", "labelColor": "white"}, "type": "nominal", "field": "Name", "title": "Bonds"}
+                "color": {"scale": {"scheme":"pastel1"},"legend": {"titleColor":"white", "labelColor": "white"}, "type": "nominal", "field": "Name", "title": " "}
               }
             }
           ]
