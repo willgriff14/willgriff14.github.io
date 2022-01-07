@@ -13,7 +13,7 @@
   "width": 310,
   
     "title": {
-      "text": "Change this to My volatility not vix",
+      "text": "S&P 500 Volatility Deviation on Dates of Hurricanes",
       "subtitle":"20% of UK jobs are not green",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
@@ -23,28 +23,27 @@
     },
 
   "data": {
-    "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/cool.csv"
+    "url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/sandp%20aligned.csv"
   },
 
 
   "repeat": {
-    "layer": ["VIX", "MA", "Trail MA"]
+    "layer": ["MA Difference", "TMA Difference"]
   },
   "spec": {
     "mark": "bar",
     "encoding": {
       "x": {
-        "field": "Date",
+        "field": "Hurricane Date",
         "type": "ordinal",
-        "axis": {"labelColor":"white", "titleColor":"white", "title": "Date of Hurricane Closest Approach"}
+        "axis": {"labelColor":"white", "titleColor":"white", "title": "Date of Hurricane Closest Approach", "labelOverlap":"parity"}
       },
       "y": {
         "aggregate": "mean",
         "field": {"repeat": "layer"},
         "type": "quantitative",
-        "scale": {"domain": [10,45]},
         "axis": {"labelColor":"white", "titleColor":"white", "gridDash":[5], "gridColor":"darkgrey"},
-        "title": "VIX Index"
+        "title": "Volatility Deviation"
       },
       "xOffset": {"datum": {"repeat": "layer"}},
       "color": {

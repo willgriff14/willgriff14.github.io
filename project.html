@@ -23,6 +23,7 @@
     <h1 data-text="Will Griffin">Will Griffin</h1>
     <div class = "navbar-links">
       <ul>
+        <li><a href = "index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="project.html">Project</a></li>
         <li><a href="https://github.com/willgriff14">GitHub</a></li>
@@ -40,25 +41,35 @@
 <body>
 
   <main>
-    <h2>Does Climate Change Impact Stock Market <span style = "color: #05f7ff; background-color: black;">
-      Volatility</span>?</h2>
+    <h2>Does Climate Change Impact Stock Market 
+      Volatility?</h2>
   </main>
 
 <!--Chart 1 -->
   <div id="content1">
-    <p>
+    <p> <span style = "text-transform: uppercase;">
+      d</span>ue to limited volatility indexes for global markets,
       <span style = "text-transform: uppercase;">
-        I</span> used the <span style = "text-transform: uppercase;">
-          Yf</span>inance module in Python to retrieve <span style = "text-transform: uppercase;">
-            vix</span> data via the <span style = "text-transform: uppercase;">
-              y</span>ahoo finance <span style = "text-transform: uppercase;">
-                API</span>.
-        SEE CODE.
+        I</span> created my own measure of volatility (wills volatility). <span style = "text-transform: uppercase;">
+          I</span> coded
+      an algorithm in python to calculate this automatrically 
+      from stock market data which <span style = "text-transform: uppercase;">
+        I</span> accessed via an <span style = "text-transform: uppercase;">
+          API</span> with the <span style = "text-transform: uppercase;"> 
+        Yf</span>inance module in <span style = "text-transform: uppercase;">
+          p</span>ython. <span style = "text-transform: uppercase;">
+            I</span> then rerieved <span style = "text-transform: uppercase;">
+          vix</span> data with this <span style = "text-transform: uppercase;">
+          API</span> and alinged my measure of volatility with vix readings in a 
+          pandas dataframe to check for correlation. <span style = "text-transform: uppercase;">
+            t</span>he data showed a 
+          0.806 pearsons correlation coefficent.
+        <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Standardised Daily Range Algorithm.ipynb">view code</a>
       
     </p>
 <div class="chart" id="chart1">
     <script>
-      var myChart1 = "vixchart.json";
+      var myChart1 = "";
       vegaEmbed('#chart1', myChart1);
     </script>
 </div>
@@ -68,10 +79,12 @@
 
 <!--Chart 2 -->
 <div id="content2">
-  <p> 2
+  <p>
     <span style = "text-transform: uppercase;">
-      I</span> scraped hurricane data using PANDAS in python
-      to investigate short term effects on volatility. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Scraping Hurricane Data.ipynb">view code</a>
+      I</span> scraped hurricane data<sup>[3]</sup> using <span style = "text-transform: uppercase;">
+        p</span>ANDAS in <span style = "text-transform: uppercase;">
+          p</span>ython
+      to investigate short term effects on volatility from severe storms/cyclones. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Scraping Hurricane Data.ipynb">view code</a>
   </p>
   <div class="chart" id="chart2">
       <script>
@@ -85,9 +98,10 @@
 
   <!--Chart 3 -->
 <div id="content3">
-  <p> 3 <span style = "text-transform: uppercase;">
-    d</span>ata shows that 13 out 19 times, VIX is higher than 
-    the monthly MA and the trailing MA of volatility.
+  <p> I used python to calculate the deviation of volatilitiy
+    from the monthly (21 point) moving average and the 
+    trailing monthly moving average on dates of hurricanes
+    closest approaches. this interactive chart shows these deviation of s&p500.
   </p>
 
   <div class="chart" id="chart3">
@@ -113,14 +127,13 @@
 <br/>
 <br/>
       <span style = "text-transform: capitalize;">
-        I</span> will begin my research by focusing on
-    the US due to data availibility and lengths of 
-    time series available.
+        I</span> will focus my research on the <span style = "text-transform: uppercase;">
+          US</span>.
     </p>
 
     <div class="chart" id="chart4">
         <script>
-          var myChart4 = "";
+          var myChart4 = "globaltemps.json";
           vegaEmbed('#chart4', myChart4);
         </script>
     </div>
@@ -128,11 +141,12 @@
 
 <!--Chart 5 -->
 <div id="content5">
-  <p> 5 <span style = "text-transform: uppercase;">
-    S</span>econd-order ramifications of climate change are likely
+  <p><span style = "text-transform: uppercase;">
+    S</span>econd-order ramifications of climate change, such as extreme weather, are likely
   to be what impacts market volatility. <span style = "text-transform: uppercase;">
-    T</span>hus, I downloaded extreme
-weather data for analysis.</p>
+    T</span>hus, <span style = "text-transform: uppercase;">
+      I</span> downloaded extreme
+weather data<sup>[1]</sup> and global temperature anomolies data<sup>[2]</sup> to begin my analysis.</p>
  
   <div class="chart" id="chart5">
       <script>
@@ -142,24 +156,12 @@ weather data for analysis.</p>
   </div>
 </div>
 
-  <!--Chart 6 -->
-<div id="content6">
-  <p> 6 
-  </p>
 
-
-  <div class="chart" id="chart6">
-      <script>
-        var myChart6 = "globaltemps.json";
-        vegaEmbed('#chart6', myChart6);
-      </script>
-  </div>
-</div>
 
   <!--Chart 7 -->
 <div id="content7">
   <p>
-    7 I wrote a function using python and pandas to perform a
+  I wrote a function using python and pandas to perform a
     2 sample t-test for the distributions above. The test
     statistics showed that volatility deviations 
     were signification to a 0.05 siginficance level 
@@ -168,7 +170,7 @@ weather data for analysis.</p>
     Russel 2000, and Russel 3000 produced insignificant test 
     results at a 0.05 significance level and so we fail to 
     reject the null hypothese for these indicies.
-     . <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="2 sample t tests.ipynb">view code</a>
+     <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="2 sample t tests.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart7">
@@ -181,10 +183,11 @@ weather data for analysis.</p>
 
  <!--Chart 8 -->
 <div id="content8">
-  <p> 8 <span style = "text-transform: uppercase;">
-    L</span>inear regression of the annual number of <span style = "text-transform: uppercase;">
-      US</span> extreme weather events on
-    mean global temperature anomoly to determine correlation.
+  <p> <span style = "text-transform: uppercase;">
+    I</span> used python to align temperature anomolies data with the extreme weather events dataset
+    and then used <span style = "text-transform: uppercase;">
+      v</span>ega-lite to produce a linear regression between these time series to determine correlation.
+    <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="combining temperate anomalies and weather events data.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart8">
@@ -216,14 +219,12 @@ weather data for analysis.</p>
 
   <!--Chart 10 -->
 <div id="content10">
-  <p> <span style = "text-transform: uppercase;">
-    D</span>ue to limited volatility indicies for global markets,
+  <p> 
     <span style = "text-transform: uppercase;">
-      I</span>  created my own measure (Wills Volatility). <span style = "text-transform: uppercase;">
-      I</span> produced a chart
+      I</span> produced an interactive chart
      with a <span style = "text-transform: uppercase;">
-      L</span>oess regression of Wills Volatility against VIX to show correlation, and thus suitability
-      (0.806 Pearsons Correlation Coefficient). <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="Standardised Daily Range Algorithm.ipynb">view code</a>
+      L</span>oess regression of Wills Volatility against <span style = "text-transform: uppercase;">
+        vix</span> to visualise and explore correlation between my volatility measure and the vix.
   </p>
 
   <div class="chart" id="chart10">
@@ -237,15 +238,14 @@ weather data for analysis.</p>
 
 <!--Chart 11 -->
 <div id="content11">
-  <p> 11: <span style = "text-transform: uppercase;">
+  <p><span style = "text-transform: uppercase;">
     A</span>ligning market volatility time series with the dates that hurricanes
     hit was challenging. <span style = "text-transform: uppercase;">
       I</span> developed a piece of software to automate
     this process for me. <span style = "text-transform: uppercase;">
-      e</span>ntering a yahoo finance ticker 
-     returns a dataframe of stock volatility, 21 
-    point moving average volatility, 2 week trailing 21 point moving average of 
-    volatility (to account for weather forecasting) aligned to the scraped hurricane data. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="MA calc and data align.ipynb">view code</a>
+      e</span>ntering a yahoo finance ticker into this function calculates: volatility, 21 point moving average volatility, 2 week trailing 21 point moving average volatility
+      (to account for weather forecasting),
+      and returns this data in a dataframe aligned with the scraped hurricane data. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="MA calc and data align.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart11">
@@ -258,7 +258,7 @@ weather data for analysis.</p>
 
   <!--Chart 12 -->
   <div id="content12">
-    <p> 12 Short-Term Effects? <span style = "text-transform: uppercase;">
+    <p> <span style = "text-transform: uppercase;">
       S</span>ince no correlation was found over long-term 
       time frame. <span style = "text-transform: uppercase;">
         I</span> will investigate effects on a short
@@ -279,12 +279,12 @@ weather data for analysis.</p>
 
     <!--Chart 13 -->
     <div id="content13">
-      <p>13
+      <p>
       </p>
     
       <div class="chart" id="chart13">
           <script>
-            var myChart13 = "SandP MA.json";
+            var myChart13 = "";
             vegaEmbed('#chart13', myChart13);
           </script>
       </div>
@@ -293,7 +293,7 @@ weather data for analysis.</p>
 
     <!--Chart 14 -->
      <div id="content14">
-       <p> 14 i will try and establish causality between differences
+       <p>i will try and establish causality between differences
          in us indices volatility and hurricane.
        </p>
         
@@ -307,7 +307,7 @@ weather data for analysis.</p>
 
     <!--Chart 15 -->
     <div id="content15">
-      <p> 15 From these volatility deviations from the mean
+      <p>From these volatility deviations from the mean
         on dates of hurricane closest approaches, we can
         see US indicies tend to show volatility above its 
         moving average. To determine causality I will compare
@@ -328,7 +328,7 @@ weather data for analysis.</p>
     <!--Chart 16 -->
     <div id="content16">
       <p>
-16 The area shows running moving average of the differences 
+The area shows running moving average of the differences 
 in index volatilty from its monthly moving average on 
 dates of hurricanes closest approach. Select index below.
       </p>
@@ -349,7 +349,7 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 18 -->
     <div id="content18">
-      <h4>18 What about short term effects?</h4>
+      <h4>What about short term effects?</h4>
       
        
       <div class="chart" id="chart18">
@@ -362,7 +362,7 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 19 -->
     <div id="content19">
-      <h4>19 Are these deviations significant??</h4> 
+      <h4>Are these deviations significant??</h4> 
   
        
       <div class="chart" id="chart19">
@@ -375,7 +375,7 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 20 -->
     <div id="content20">
-      <h4>20 How do these compare to other indicies?</h4> 
+      <h4>How do these compare to other indicies?</h4> 
        
       <div class="chart" id="chart20">
           <script>
@@ -387,11 +387,14 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 21 -->
     <div id="content21">
-      <p> 21 conclusion: there is a strong correlation between the annual number of
-        severse storms and tropical cyclones within the US and climate change.
-        There was no long-term causal effects found. However,
+      <h4>conclusion</h4>
+        <p>
+        there is a strong, positive correlation between the annual number of
+        severe storms and tropical cyclones within the US mean global temperature anomolies.
+        There were no long-term impacts found on stock market Volatility
+        from increased severe storm events. However,
         Looking at short term impacts of hurricanes, we found short term increases
-        in volatility on the days of hurricanes closest approach. 
+        in volatility on the days of hurricane closest approach. 
         There effects were established to be causal for SandP and Nasdaq,
         however not causual for dow jones, russel 2000 and russel 3000.
         Low cap stock and high cap stocks both showed infsignificant results.
@@ -415,11 +418,16 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 22 -->
     <div id="content22">
-      <p> https://www.ncdc.noaa.gov/billions/events <br><br>
 
-        https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/11/1980-2021 <br><br>
-
-        https://www.mapsofworld.com/hurricane/dates.html <br><br>
+      <h4> Data Sources</h4>
+      
+      <p> <a style = " white-space:nowrap; color: white;" href="https://www.ncdc.noaa.gov/billions/events">https://www.ncdc.noaa.gov/billions/events</a><sup>[1]</sup>
+      
+     <br><br>
+     <a style = " white-space:nowrap; color: white;" href="https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/11/1980-2021">https://www.ncdc.noaa.gov/cag/global/time-series/globe/land_ocean/1/11/1980-2021</a><sup>[2]</sup>
+     <br><br>
+     <a style = " white-space:nowrap; color: white;" href="https://www.mapsofworld.com/hurricane/dates.html">https://www.mapsofworld.com/hurricane/dates.html</a><sup>[3]</sup>
+     <br><br>
 
         https://uk.finance.yahoo.com/world-indices/
 
