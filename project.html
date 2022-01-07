@@ -98,10 +98,13 @@
 
   <!--Chart 3 -->
 <div id="content3">
-  <p> I used python to calculate the deviation of volatilitiy
+  <p> <span style = "text-transform: uppercase;">
+    I</span> used python to calculate the deviation of volatilitiy
     from the monthly (21 point) moving average and the 
     trailing monthly moving average on dates of hurricanes
-    closest approaches. this interactive chart shows these deviation of s&p500.
+    closest approaches. <span style = "text-transform: uppercase;">
+      t</span>his interactive chart shows these deviation for the <span style = "text-transform: uppercase;">
+        s&p</span> 500.
   </p>
 
   <div class="chart" id="chart3">
@@ -161,14 +164,23 @@ weather data<sup>[1]</sup> and global temperature anomolies data<sup>[2]</sup> t
   <!--Chart 7 -->
 <div id="content7">
   <p>
-  I wrote a function using python and pandas to perform a
-    2 sample t-test for the distributions above. The test
+    <span style = "text-transform: uppercase;">
+      i</span> wrote a function using <span style = "text-transform: uppercase;">
+        p</span>ython, <span style = "text-transform: uppercase;">
+          p</span>andas and <span style = "text-transform: uppercase;">
+            s</span>ci<span style = "text-transform: uppercase;">p</span>y to perform a
+    2 sample t-test for the distributions above with a 0.05 siginficance level. The test
     statistics showed that volatility deviations 
-    were signification to a 0.05 siginficance level 
-    for the sandp 500 statistic 2.927 and nasdaq stastic 4.124
-    and thus reject null hypothese. In contrast, Dow Jones 30,
-    Russel 2000, and Russel 3000 produced insignificant test 
-    results at a 0.05 significance level and so we fail to 
+    were signification for the <span style = "text-transform: uppercase;">
+      s&p</span> 500 and <span style = "text-transform: uppercase;">
+        n</span>asdaq and thus reject null hypothese. <span style = "text-transform: uppercase;">
+          i</span>n contrast, <span style = "text-transform: uppercase;">
+            d</span>ow <span style = "text-transform: uppercase;">
+              j</span>ones 30,
+              <span style = "text-transform: uppercase;">
+                r</span>ussel 2000, and <span style = "text-transform: uppercase;">
+                  r</span>ussel 3000 produced insignificant test 
+    statistics and so we fail to 
     reject the null hypothese for these indicies.
      <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="2 sample t tests.ipynb">view code</a>
   </p>
@@ -224,7 +236,8 @@ weather data<sup>[1]</sup> and global temperature anomolies data<sup>[2]</sup> t
       I</span> produced an interactive chart
      with a <span style = "text-transform: uppercase;">
       L</span>oess regression of Wills Volatility against <span style = "text-transform: uppercase;">
-        vix</span> to visualise and explore correlation between my volatility measure and the vix.
+        vix</span> to visualise and explore correlation between my volatility measure and the <span style = "text-transform: uppercase;">
+          vix</span>.
   </p>
 
   <div class="chart" id="chart10">
@@ -277,24 +290,13 @@ weather data<sup>[1]</sup> and global temperature anomolies data<sup>[2]</sup> t
     </div>
   </div>
 
-    <!--Chart 13 -->
-    <div id="content13">
-      <p>
-      </p>
-    
-      <div class="chart" id="chart13">
-          <script>
-            var myChart13 = "";
-            vegaEmbed('#chart13', myChart13);
-          </script>
-      </div>
-    </div>
-
 
     <!--Chart 14 -->
      <div id="content14">
-       <p>i will try and establish causality between differences
-         in us indices volatility and hurricane.
+       <p><span style = "text-transform: uppercase;">
+        t</span>his histogram visualises index volatility distributions on dates of
+         hurricane closest approaches against disbributions of that date
+         for every year a hurricane did not hit.
        </p>
         
        <div class="chart" id="chart14">
@@ -307,13 +309,20 @@ weather data<sup>[1]</sup> and global temperature anomolies data<sup>[2]</sup> t
 
     <!--Chart 15 -->
     <div id="content15">
-      <p>From these volatility deviations from the mean
-        on dates of hurricane closest approaches, we can
-        see US indicies tend to show volatility above its 
-        moving average. To determine causality I will compare
-        volatility of US indices on the date a hurricane hits 
-        to the average volatility on that same day for every 
-        year it didn't it on that day. I developed a peice of
+      <p> <span style = "text-transform: uppercase;">
+        w</span>e can
+        see that the <span style = "text-transform: uppercase;">
+          us</span> indicies tend to show volatility above its 
+        moving average on dates of hurricane closest approach,
+        whereas we do not observe this trend for the european
+        indices on these same dates.<br><br> <span style = "text-transform: uppercase;">
+          t</span>o determine causality  <span style = "text-transform: uppercase;">
+            I</span> will compare
+        volatility of <span style = "text-transform: uppercase;">
+          us</span>  indices on the date a hurricane hits (test group) 
+        to the mean volatility on that same day for every 
+        year one didn't hit (control group). <span style = "text-transform: uppercase;">
+          I</span>  developed a peice of
         software to extract and align this data for me. <a style = " white-space:nowrap; color:rgb(138, 241, 255);" href="same day diff year.ipynb">view code</a>
       </p>
        
@@ -362,7 +371,7 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 19 -->
     <div id="content19">
-      <h4>Are these deviations significant??</h4> 
+      <h4>Are these deviations in US volatility significant?</h4> 
   
        
       <div class="chart" id="chart19">
@@ -375,7 +384,7 @@ dates of hurricanes closest approach. Select index below.
 
     <!--Chart 20 -->
     <div id="content20">
-      <h4>How do these compare to other indicies?</h4> 
+      <h4>How do these deviations in US indicies compare to others?</h4> 
        
       <div class="chart" id="chart20">
           <script>
@@ -389,23 +398,31 @@ dates of hurricanes closest approach. Select index below.
     <div id="content21">
       <h4>conclusion</h4>
         <p>
-        there is a strong, positive correlation between the annual number of
+          <span style = "text-transform: uppercase;">
+            t</span>here is a strong, positive correlation between the annual number of
         severe storms and tropical cyclones within the US mean global temperature anomolies.
-        There were no long-term impacts found on stock market Volatility
-        from increased severe storm events. However,
-        Looking at short term impacts of hurricanes, we found short term increases
+        <span style = "text-transform: uppercase;">
+          t</span>here were no long-term impacts found on stock market Volatility
+        from increased severe storm events.
+        <span style = "text-transform: uppercase;">
+          l</span>ooking at short term impacts of hurricanes displayed short term increases
         in volatility on the days of hurricane closest approach. 
-        There effects were established to be causal for SandP and Nasdaq,
-        however not causual for dow jones, russel 2000 and russel 3000.
-        Low cap stock and high cap stocks both showed infsignificant results.
-        As climate change continues we could see more frequent short term
+        <span style = "text-transform: uppercase;">
+          t</span>here effects were established to be causal for the <span style = "text-transform: uppercase;">
+            s&p</span> 500 and <span style = "text-transform: uppercase;">
+              n</span>asdaq. <span style = "text-transform: uppercase;">
+                l</span>ow cap stock and high cap stocks both showed infsignificant results.
+                <span style = "text-transform: uppercase;">
+                  a</span>s climate change continues we could see more frequent short term
         periods of increased volatilty. <br><br>
         
-        Further investgation is needed to establish why only two indicies 
-        showed significant results. This could be to do with sector or industry
-        compromisation of indexes. For example, large insurance companies may be 
-        negatively effected. Furthermore this project solely focuses on the impacts
-        to the us stock market. Other stock markets from around the world 
+        <span style = "text-transform: uppercase;">
+          f</span>urther investgation is needed to establish why only two indicies 
+        showed significant results. <span style = "text-transform: uppercase;">
+          t</span>his could be to do with sector or industry
+        compromisation of indexes. <span style = "text-transform: uppercase;">
+          m</span>oreoever, this project limits focus to the <span style = "text-transform: uppercase;">
+            us</span> and further investigation for other global stock is required. 
       </p>
        
       <div class="chart" id="chart21">
