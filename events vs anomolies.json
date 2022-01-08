@@ -9,8 +9,8 @@
     },
     
       "title": {
-        "text": "Extreme Weather Events against Global Temp Anomoly",
-        "subtitle":"US extreme weather events against global temperature anomolies",
+        "text": "Extreme Weather Events against Global Temp Anomaly",
+        "subtitle":"US extreme weather events against global temperature anomalies",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "subtitleColor": "white",
@@ -41,7 +41,7 @@
         ],
         "encoding": {
           "x": {"field": "temp anomolies", "type": "quantitative",
-          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomoly (degrees celcius)", "grid": false}},
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomaly (degrees celcius)", "grid": false}},
           "y": {"field": "All Disasters Count", "type": "quantitative",
           "axis": {"labelColor": "white", "titleColor": "white", "title": "Extreme Weather Events Count", "grid": false}}
         }
@@ -57,7 +57,7 @@
         ],
         "mark": {
           "type": "text",
-          "color": "white",
+          "color": "#1f1f1f",
           "x": "width",
           "align": "right",
           "y": 90
