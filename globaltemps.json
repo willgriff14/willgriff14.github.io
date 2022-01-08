@@ -44,7 +44,7 @@
     "y": {
       "field": "Mean",
       "type": "quantitative",
-      "title": "Degrees Celcius",
+      "title": "Degrees Celsius",
       "axis": {"grid": false, "labelColor": "white", "titleColor":"white"}
     },"tooltip":{"field": "Mean", "type": "quantitative"}},
 
