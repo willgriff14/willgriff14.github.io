@@ -6,15 +6,15 @@
     "background": "#3a3a3a00",
     "view": {
       "stroke": "transparent"
-  }, "legend": {"labelColor":"white", "orient": "top-left"}
+  }
   },
 
   "height": 300,
   "width": 310,
   
     "title": {
-      "text": "S&P 500 Volatility Deviation on Dates of Hurricanes",
-      "subtitle":"20% of UK jobs are not green",
+      "text": "S&P 500 Volatility Deviations on Hurricane Hit Dates",
+      "subtitle":"Volatility deviations from moving average and trailing moving average",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "subtitleColor": "white",
@@ -43,13 +43,14 @@
         "field": {"repeat": "layer"},
         "type": "quantitative",
         "axis": {"labelColor":"white", "titleColor":"white", "gridDash":[5], "gridColor":"darkgrey"},
-        "title": "Volatility Deviation"
+        "title": "Volatility"
       },
       "xOffset": {"datum": {"repeat": "layer"}},
       "color": {
         "datum": {"repeat": "layer"},
         "type": "nominal",
-        "scale":{"scheme": ["#05f7ff", "white", "black"]}
+        "scale":{"scheme": ["#05f7ff", "white", "black"]},
+        "legend": {"labelColor":"white", "orient": "top-left", "labelExpr":"{'MA Difference':'Deviation from MA', 'TMA Difference':'Deviation from trailing MA'}[datum.label]"}
       }
     }
   }
