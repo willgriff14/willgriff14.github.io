@@ -292,6 +292,7 @@ h2{
 
 p{font-family: 'Roboto', sans-serif;
 color: white; padding: 15pt; line-height: 15pt;
+font-weight: normal;
 }
 
 .navbar-links ul {
