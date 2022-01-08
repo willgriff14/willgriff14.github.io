@@ -59,13 +59,13 @@
 
     "encoding": {
       "x": {"timeUnit":"yearmonthdate", "field": "Hurricane Date", "type": "nominal", "axis":{"labelColor":"white", "titleColor": "white"}},
-      "y": {"field": "MA Difference", "type": "quantitative", "axis":{"labelColor":"white", "titleColor":"white","gridDash":[5], "gridColor":"darkgrey"}},
+      "y": {"field": "MA Difference", "type": "quantitative", "axis":{"labelColor":"white", "titleColor":"white","gridDash":[5], "gridColor":"darkgrey", "title":"Deviation from Moving Average"}},
     "size": {"field": "Hurricane Category"}
     }
   },
   
   {
-    "mark": {"type": "area", "opacity": 0.5, "color": "white"},
+    "mark": {"type": "area", "opacity": 0.7, "color": "white"},
 
 
 "transform": [
@@ -74,7 +74,8 @@
 
     "encoding": {
       "x": {"timeUnit":"year", "field": "Hurricane Date", "axis":{"title":"Hurricane Date of Closest Approach"}},
-      "y": {"aggregate": "mean", "field": "MA Difference"}
+      "y": {"aggregate": "mean", "field": "MA Difference"},
+      "color":{"field":"mean", "title":"Running Mean", "scale":{"scheme":["white","white,","white"]}, "legend":{"labelColor":"#1f1f1f"}}
     }
   }, 
   
