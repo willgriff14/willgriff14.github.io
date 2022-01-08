@@ -41,7 +41,7 @@
         ],
         "encoding": {
           "x": {"field": "temp anomolies", "type": "quantitative",
-          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomaly (degrees celcius)", "grid": false}},
+          "axis": {"labelColor": "white", "titleColor": "white", "title": "Mean Global Temp Anomaly (degrees celsius)", "grid": false}},
           "y": {"field": "All Disasters Count", "type": "quantitative",
           "axis": {"labelColor": "white", "titleColor": "white", "title": "Extreme Weather Events Count", "grid": false}}
         }
