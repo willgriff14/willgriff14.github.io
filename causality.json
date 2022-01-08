@@ -7,15 +7,15 @@
       "background": "#3a3a3a00",
       "view": {
         "stroke": "transparent"
-    }, "legend": {"labelColor":"white", "titleColor":"white"}
+    }, "legend": {"labelColor":"#1f1f1f", "titleColor":"white", "orient":"bottom"}
     },
   
     "height": 300,
     "width": 310,
     
       "title": {
-        "text": "Index Volatility Distributions",
-        "subtitle":"Select index",
+        "text": "Index Volatility Distributions on Hurricane Hit Date",
+        "subtitle":"Test group (white) against control group (blue) volatility disbributions",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
         "subtitleColor": "white",
@@ -26,7 +26,7 @@
   "data": {"url": "https://raw.githubusercontent.com/willgriff14/willgriff14.github.io/main/US%20indicies.csv"},
 
   "layer": [{
-    "mark": {"type": "bar", "opacity": 0.6, "color": "white", "tooltip":true},
+    "mark": {"type": "bar", "opacity": 0.6, "fill": "white", "tooltip":true},
 
 "selection": {
   "Symbol": {
@@ -51,8 +51,10 @@
   {"filter": {"selection": "Symbol"}}],
 
     "encoding": {
-      "x": {"field": "Wills Volatility Measure", "bin" : true},
-      "y": {"aggregate":"count"}
+      "x": {"field": "Wills Volatility Measure", "bin" : true, "title": "Volatility"},
+      "y": {"aggregate":"count"},
+      "color":{"field":"Wills Volatility Mesure", "title": "Test Group", 
+      "aggregate":"count", "scale":{"scheme":["white","white","white"]}}
     }
   },
   
@@ -68,25 +70,8 @@
       "x": {"field": "Mean volatility on this day other years", "bin": true, "axis":{"title": "binned", "labelColor":"white", "titleColor": "white"}},
       "y": {"aggregate":"count", "axis":{"titleColor":"white", "labelColor":"white", "gridDash":[5], "gridColor":"darkgrey"}}
     }
-  },{
-  "mark": "rule",
-  "encoding": {
-    "x": {"aggregate": "mean", "field": "Wills Volatility Measure"},
-    "color": {"value": "white"},
-    "size": {"value": 3}
-  }
-},{
-  "mark": "rule",
-  "encoding": {
-    "x": {"aggregate": "mean", "field": "Mean volatility on this day other years"},
-    "color": {"value": "black"},
-    "size": {"value": 3}
-    
-  }
+  
 }
-
-
-
 
   ]
 }
