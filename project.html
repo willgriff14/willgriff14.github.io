@@ -61,7 +61,7 @@
           p</span>ython. <span style = "text-transform: uppercase;">
             I</span> then retrieved <span style = "text-transform: uppercase;">
           vix</span> data with this <span style = "text-transform: uppercase;">
-          API</span> and aligned my measure of volatility with <span style = "text-transform: uppercase;">
+          API</span> and used loops and booleans to align my measure of volatility with <span style = "text-transform: uppercase;">
             vix</span> readings in a 
             <span style = "text-transform: uppercase;">
               p</span>andas dataframe to check for correlation. <span style = "text-transform: uppercase;">
@@ -102,13 +102,10 @@
 
   <!--Chart 3 -->
 <div id="content3">
-  <p> <span style = "text-transform: uppercase;">
-    I</span> used python to calculate the deviation of volatility
-    from the monthly (21 point) moving average and the 
-    trailing monthly moving average on dates of hurricanes
-    closest approaches. <span style = "text-transform: uppercase;">
-      t</span>his interactive chart shows these deviations for the <span style = "text-transform: uppercase;">
-        s&p</span>500.
+  <p><span style = "text-transform: uppercase;">
+      t</span>his chart shows <span style = "text-transform: uppercase;">
+        s&p</span>500 volatility deviations from
+      the moving average and trailing moving average on dates of hurricane closest approaches.
   </p>
 
   <div class="chart" id="chart3">
@@ -261,12 +258,13 @@ weather<sup>[1]</sup> and global temperature anomalies<sup>[2]</sup>.</p>
     A</span>ligning market volatility time series with the dates that hurricanes
     hit was challenging. <span style = "text-transform: uppercase;">
       I</span> developed a piece of software to automate
-    this process for me. <span style = "text-transform: uppercase;">
+    this entire process for me by using multiple loops and 'if' booleans within functions. <span style = "text-transform: uppercase;">
       e</span>ntering a <span style = "text-transform: uppercase;">
         y</span>ahoo <span style = "text-transform: uppercase;">
           f</span>inance ticker into this function calculates: volatility, 21-point moving average volatility, 2-week trailing 21-point moving average volatility
-      (to account for weather forecasting),
-      and returns this data in a dataframe aligned with the scraped hurricane data. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="MA calc and data align.ipynb">view code</a>
+      (to account for weather forecasting), deviation in volatility from the moving average, the deviation in
+      volatility from the trailing moving average and returns this data in a dataframe aligned with all dates
+      of hurricane closest approach. <a style = " white-space:nowrap; color: rgb(138, 241, 255);" href="MA calc and data align.ipynb">view code</a>
   </p>
 
   <div class="chart" id="chart11">
@@ -329,7 +327,10 @@ weather<sup>[1]</sup> and global temperature anomalies<sup>[2]</sup>.</p>
         to the mean volatility on that same day for every 
         year one did not hit (control group). <span style = "text-transform: uppercase;">
           I</span>  developed a piece of
-        software to extract and align this data for me. <a style = " white-space:nowrap; color:rgb(138, 241, 255);" href="same day diff year.ipynb">view code</a>
+        software to extract, calculate, and align this data for me.
+        <span style = "text-transform: uppercase;">
+          I</span> will compare have once again used loops and 'if' booleans in fuctions to automate
+        this whole process for me. <a style = " white-space:nowrap; color:rgb(138, 241, 255);" href="same day diff year.ipynb">view code</a>
       </p>
        
       <div class="chart" id="chart15">
