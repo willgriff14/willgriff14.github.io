@@ -29,11 +29,11 @@
   "mark": {"type": "circle", "color":"#05f7ff", "tooltip":true},
   "encoding": {
     "x": {
-      "field": "^STOXX50E", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white", "title": "EUROSTOXX50"},
+      "field": "EUROSTOXX50", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white", "title": "EUROSTOXX50"},
       "scale": {"domain": [2000, 5000]}
     },
     "y": {
-      "field": "^GSPC", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white", "title": "S&P500"},
+      "field": "S&P500", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white", "title": "S&P500"},
       "scale": {"domain": [2000, 5000]}
     }
   }
