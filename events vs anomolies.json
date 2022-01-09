@@ -57,7 +57,7 @@
         ],
         "mark": {
           "type": "text",
-          "color": "#1f1f1f",
+          "color": "white",
           "x": "width",
           "align": "right",
           "y": 90
