@@ -26,7 +26,7 @@
     "select": "interval",
     "bind": "scales"
   }],
-  "mark": {"type": "circle", "color":"#05f7ff"},
+  "mark": {"type": "circle", "color":"#05f7ff", "tooltip":true},
   "encoding": {
     "x": {
       "field": "^STOXX50E", "type": "quantitative", "axis": {"labelColor": "white", "titleColor": "white", "title": "EUROSTOXX50"},
