@@ -14,7 +14,7 @@
       
         "title": {
           "text": "Wills Volatility Measure for S&P500 against VIX",
-          "subtitle":"Source: Yahoo Finance",
+          "subtitle":"Source: Yahoo Finance - Zoom in to explore data",
           "subtitleFontStyle":"italic",
           "subtitleFontSize":10,
           "subtitleColor": "white",
@@ -37,7 +37,8 @@
         "mark": {
           "type": "point",
           "filled": false,
-          "color": "#05f7ff"
+          "color": "#05f7ff",
+          "tooltip":true
         },
         "encoding": {
           "x": {
