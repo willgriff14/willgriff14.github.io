@@ -301,6 +301,13 @@ line-height: 18pt; letter-spacing: 0.25pt;
 text-align: center;
 }
 
+a{font-family: "Poppins", sans-serif;
+color: rgb(138, 241, 255); text-transform: lowercase;
+font-weight: normal; padding: 15px; font-size: 9pt;
+line-height: 18pt; letter-spacing: 0.25pt;
+text-align: center;
+}
+
 .navbar-links ul {
 	margin: 0;
 	padding: 0;
