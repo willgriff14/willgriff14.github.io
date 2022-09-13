@@ -28,6 +28,10 @@
 	text-align: center;
 }
 
+body {
+    background-color: #3C3C3C;
+}
+
 
 nav{
 	background: #1f1f1f;
