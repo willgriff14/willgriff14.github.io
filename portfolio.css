@@ -12,13 +12,13 @@
 	grid-template-areas:
 	"nav nav nav"
 	"main main main"
-	"content1 content2 content3"
+	"content21 content2 content3"
 	"content4 content5 content6"
 	"content15 content16 content19"
 	"content10 content11 content12"
 	"content13 content14 content18"
 	"content17 content20 content23"
-	"content21 content22 content8"
+	"content1 content22 content8"
 	"content7 content7 content9"
 	"footer footer footer";
 	grid-gap: 1rem;
@@ -348,7 +348,7 @@ text-align: center;
 		grid-template-areas:
 		"nav nav"
 		"main main"
-		"content1 content2"
+		"content21 content2"
 		"content3 content4"
 		"content5 content6"
 		"content15 content16"
@@ -357,7 +357,7 @@ text-align: center;
 		"content13 content14"
 		"content18 content17"
 		"content20 content23"
-		"content21 content2"
+		"content1 content2"
 		"content8 content9"
 		"content7 content7"
 		"footer footer";
@@ -372,7 +372,7 @@ text-align: center;
 		grid-template-areas:
 		"nav"
 		"main"
-		"content1"
+		"content21"
 		"content2"
 		"content3"
 		"content4"
@@ -390,7 +390,7 @@ text-align: center;
 		"content17"
 		"content20"
 		"content23"
-		"content21"
+		"content1"
 		"content22"
 		"content8"
 		"content9"
