@@ -12,6 +12,7 @@
 	grid-template-areas:
 	"nav nav nav"
 	"main main main"
+	"content21 content21 content21"
 	"content4 content4 content4"
 	"content5 content8 content1"
 	"content10 content9 contenty"
@@ -22,7 +23,6 @@
 	"contenta content16 contentb"
 	"content19 content19 content19"
 	"content15 content14 content7"
-	"content21 content21 content21"
 	"content22 content22 content22"
 	"footer footer footer";
 	grid-gap: 1rem;
@@ -353,6 +353,7 @@ text-align: center;
 		grid-template-areas:
 		"nav nav"
 		"main main"
+		"content21 content21"
 		"content4 content4"
 		"content5 content8"
 		"content1 content10"
@@ -365,7 +366,7 @@ text-align: center;
 		"content19 content19"
 		"content15 content14"
 		"content7 contenty"
-		"content21 content21"
+		
 		"content22 content22"
 		"footer footer";
 
@@ -379,6 +380,7 @@ text-align: center;
 		grid-template-areas:
 		"nav"
 		"main"
+		"content21"
 		"content4"
 		"content5"
 		"content8"
@@ -397,7 +399,6 @@ text-align: center;
 		"content15"
 		"content14"
 		"content7"
-		"content21"
 		"content22"
 		"footer";
 
